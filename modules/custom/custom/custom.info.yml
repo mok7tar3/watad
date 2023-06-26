@@ -1,0 +1,10 @@
+name: 'custom'
+type: module
+description: 'Custom module'
+package: Huge
+core_version_requirement: ^8 || ^9
+libraries:
+  - custom/custom_style
+version: '1.0'
+project: 'custom'
+

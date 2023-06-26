@@ -1,0 +1,8 @@
+custom.runCommands:
+  path: '/scraptest'
+  defaults:
+    _controller: '\Drupal\custom\Controller\Utilites::runCommands'
+    _title: 'Scrap product test'
+  requirements:
+    _role: 'administrator'
+

@@ -1,0 +1,70 @@
+custom.adderp:
+  title: 'Add ERP'
+  parent: 'system.admin_content'
+  url: internal:/<front>
+  weight: 0
+custom.adderpbill:
+  title: 'Add Bill'
+  parent: 'custom.adderp'
+  url: internal:/bill/add
+  weight: 0
+custom.adderpBusiness:
+  title: 'Add Business'
+  parent: 'custom.adderp'
+  url: internal:/business/add
+  weight: 2
+custom.adderpcontact:
+  title: 'Add Contact'
+  parent: 'custom.adderp'
+  url: internal:/contact/add
+  weight: 2
+custom.adderpcheck:
+  title: 'Add Check'
+  parent: 'custom.adderp'
+  url: internal:/check/add
+  weight: 3
+custom.adderpinvoice:
+  title: 'Add Invoice'
+  parent: 'custom.adderp'
+  url: internal:/invoice/add
+  weight: 4
+custom.adderppayment:
+  title: 'Add Payment'
+  parent: 'custom.adderp'
+  url: internal:/payment/add
+  weight: 5
+custom.adderpquote:
+  title: 'Add Quote'
+  parent: 'custom.adderp'
+  url: internal:/quote/add
+  weight: 5
+custom.adderpsubscription:
+  title: 'Add Subscribtion'
+  parent: 'custom.adderp'
+  url: internal:/subscription/add
+  weight: 6
+custom.adderpticket:
+  title: 'Add Ticket'
+  parent: 'custom.adderp'
+  url: internal:/ticket/add
+  weight: 6
+custom.adderporder:
+  title: 'Add Order'
+  parent: 'custom.adderp'
+  url: internal:/order/add
+  weight: 7
+custom.adderpitemtype:
+  title: 'Add Item Type'
+  parent: 'custom.adderp'
+  url: internal:/itemtype/add
+  weight: 7
+custom.adderpgoodsreceipt:
+  title: 'Add Goods Receipt'
+  parent: 'custom.adderp'
+  url: internal:/goodsreciept/add
+  weight: 8
+custom.adderpinformation:
+  title: 'Add Information'
+  parent: 'custom.adderp'
+  url: internal:/information/add
+  weight: 8

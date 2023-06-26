@@ -1,0 +1,5 @@
+<?php
+
+function custom_preprocess_html(&$variables){
+$variables['#attached']['library'][]='custom/custom_style';
+}

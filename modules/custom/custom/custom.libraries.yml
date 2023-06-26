@@ -1,0 +1,5 @@
+
+custom_style:
+  css:
+    theme:
+      assets/css/style.css: {weight: 5000}

@@ -1,0 +1,32 @@
+.mega-menu > ul > li > ul {
+    left: 0;
+    right: auto;
+}
+@media (min-width: 770px) and (max-width : 990px){
+header .container{
+    width: 100% !important;
+}
+}
+
+/* Blog Page */
+.content-layout{
+    flex-direction: row-reverse;
+
+}
+
+/* Services 02 */
+.service-teaser2 .post-content {
+    margin-top: 1.2rem;
+    padding: 40px 1.9rem 30px;
+
+}
+
+[type="checkbox"]:checked + label:before{
+    right: 11px;
+    left: auto;
+    border-left: 2px solid transparent;
+    border-right: 2px solid #ffffff;
+}
+.button, input[type="submit"]{
+    margin-top: 10px;
+}

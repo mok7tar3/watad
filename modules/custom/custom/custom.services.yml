@@ -1,0 +1,6 @@
+services:
+  custom.commands:
+    class: \Drupal\custom\Commands\scrapCommands
+    tags:
+      - {name: drush.command}
+    arguments: ['@entity_type.manager','@logger.factory']

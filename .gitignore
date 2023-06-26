@@ -1,0 +1,7 @@
+/sites/default/files
+/tmp/
+private_files
+/themes/contrib
+/modules/contrib
+/core
+/vendor
