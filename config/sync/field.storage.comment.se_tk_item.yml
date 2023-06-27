@@ -1,0 +1,22 @@
+uuid: 6348e4b4-8fcf-4475-ab3b-d7e00451e4e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - se_item
+_core:
+  default_config_hash: VdqvlFtPL182KWKV_i9cnQjKh5Bt2-OSL1iQZzcWS3U
+id: comment.se_tk_item
+field_name: se_tk_item
+entity_type: comment
+type: entity_reference
+settings:
+  target_type: se_item
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

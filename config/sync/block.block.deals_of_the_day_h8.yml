@@ -1,0 +1,53 @@
+uuid: bf48cae4-8ea7-4d75-b6de-d160d6b795a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_shop_05
+  content:
+    - 'block_content:deals:eff3fb86-9ee5-48a9-b9ea-b8718c6a575e'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-center
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: /themes/martis/assets/images/bg/bg1.png
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: deals_of_the_day_h8
+theme: martis
+region: content_wide_top
+weight: -65
+provider: null
+plugin: 'block_content:eff3fb86-9ee5-48a9-b9ea-b8718c6a575e'
+settings:
+  id: 'block_content:eff3fb86-9ee5-48a9-b9ea-b8718c6a575e'
+  label: 'Deals of the day'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_shop_05

@@ -1,0 +1,14 @@
+uuid: df1996e5-fdb5-4311-8d79-2ed0948b1c86
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zf7YA-OOtWhhrphbf3YOlc49POwC9rePktH9cBavEiA
+id: default
+label: Default
+traits: {  }
+workflow: order_default
+refresh_mode: customer
+refresh_frequency: 300
+sendReceipt: true
+receiptBcc: ''

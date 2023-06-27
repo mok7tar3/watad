@@ -1,0 +1,22 @@
+uuid: ecd9211d-f25b-44bc-89d8-c7c689801eb2
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - martis
+_core:
+  default_config_hash: Rbi62eDcm6InRhRJ5vZg-XVBWlq09K9-hDB8BBGIhBc
+id: martis_help
+theme: martis
+region: content
+weight: -69
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

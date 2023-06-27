@@ -1,0 +1,11 @@
+uuid: ccd3cd02-f8c1-488a-a0f1-6bdc81535b88
+langcode: en
+status: true
+dependencies: {  }
+id: clothing
+label: Clothing
+traits:
+  - purchasable_entity_shippable
+locked: false
+orderItemType: physical_product_variation
+generateTitle: true

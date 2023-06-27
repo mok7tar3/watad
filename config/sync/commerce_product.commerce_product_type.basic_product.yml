@@ -1,0 +1,12 @@
+uuid: cda7742d-1725-47fa-8fc0-cddf22d3d0cf
+langcode: en
+status: true
+dependencies: {  }
+id: basic_product
+label: 'Basic Product'
+traits: {  }
+locked: false
+description: ''
+variationType: basic
+multipleVariations: true
+injectVariationFields: true

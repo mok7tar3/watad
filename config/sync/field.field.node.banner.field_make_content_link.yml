@@ -1,0 +1,23 @@
+uuid: 344587f8-1af8-4a9d-87ae-883241e0337a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_make_content_link
+    - node.type.banner
+id: node.banner.field_make_content_link
+field_name: field_make_content_link
+entity_type: node
+bundle: banner
+label: 'Make Content Link'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

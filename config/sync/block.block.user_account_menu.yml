@@ -1,0 +1,56 @@
+uuid: d3e8c1c0-5aa5-4ee9-b805-f86f1e56d4f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - block_visibility_groups
+    - hsblock
+    - system
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: user_account_menu
+theme: martis
+region: header_top_second
+weight: -42
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/corporate-01\r\n/corporate-02\r\n/corporate-03\r\n/personal-01\r\n/personal-02"

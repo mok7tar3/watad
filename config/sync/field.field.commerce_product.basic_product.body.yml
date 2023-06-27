@@ -1,0 +1,23 @@
+uuid: 4bf43856-f47b-48cf-b6bb-5c1cbf480b5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.basic_product
+    - field.storage.commerce_product.body
+  module:
+    - text
+id: commerce_product.basic_product.body
+field_name: body
+entity_type: commerce_product
+bundle: basic_product
+label: 'Product Details'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

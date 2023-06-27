@@ -1,0 +1,22 @@
+uuid: 396227c3-8ca9-4add-8751-c7272892f0dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_item
+    - taxonomy
+_core:
+  default_config_hash: NyUMtV0sZHf0xB8NhSm5t6Tec9JEXAl8onVomDYK0Ow
+id: se_item.se_it_product_type_ref
+field_name: se_it_product_type_ref
+entity_type: se_item
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

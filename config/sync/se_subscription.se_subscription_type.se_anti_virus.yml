@@ -1,0 +1,10 @@
+uuid: dd0c3710-561e-4d9b-9fe1-126995dd335d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qfrgtBMdK1sTcDOt33D2JbAOgi2ZoC5j8R6xBlySCVA
+id: se_anti_virus
+label: 'Anti virus'
+locked: null
+pattern: null

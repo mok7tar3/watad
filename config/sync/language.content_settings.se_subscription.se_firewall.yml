@@ -1,0 +1,18 @@
+uuid: 860cc25c-b52e-4d9b-a31f-c43237f90e88
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_subscription.se_subscription_type.se_firewall
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_subscription.se_firewall
+target_entity_type_id: se_subscription
+target_bundle: se_firewall
+default_langcode: site_default
+language_alterable: false

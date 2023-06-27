@@ -1,0 +1,17 @@
+uuid: d81425a4-bc87-4931-8d30-408db2d343b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: product
+label: Product
+logic: and
+conditions:
+  2ce6ca20-207b-4847-9233-f9ee680e954d:
+    id: request_path
+    negate: false
+    uuid: 2ce6ca20-207b-4847-9233-f9ee680e954d
+    context_mapping: {  }
+    pages: '/product/*'
+allow_other_conditions: false

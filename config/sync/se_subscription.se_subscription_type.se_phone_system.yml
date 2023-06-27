@@ -1,0 +1,10 @@
+uuid: 09f9980c-a11f-4f15-9e6e-24c7c1d053d2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lhfqkOVfQq5_4pyCW5CtKV-dHYX7Sku5GKWWgC5PJw8
+id: se_phone_system
+label: 'Phone system'
+locked: null
+pattern: null

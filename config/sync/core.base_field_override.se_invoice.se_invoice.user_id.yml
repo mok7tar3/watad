@@ -1,0 +1,20 @@
+uuid: 2c27b54b-bb2f-47f6-9e1e-240ba5ab7ddc
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_invoice
+id: se_invoice.se_invoice.user_id
+field_name: user_id
+entity_type: se_invoice
+bundle: se_invoice
+label: 'Authored by'
+description: 'The user ID of author of the Invoice entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

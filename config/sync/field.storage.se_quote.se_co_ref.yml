@@ -1,0 +1,22 @@
+uuid: 6f7b8f67-53c3-410b-be72-4e8e652561a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_contact
+    - se_quote
+_core:
+  default_config_hash: gTO-WcjTXxUjjXMv_yu5-4FmMeB41mPzVhEd4QTQs60
+id: se_quote.se_co_ref
+field_name: se_co_ref
+entity_type: se_quote
+type: entity_reference
+settings:
+  target_type: se_contact
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

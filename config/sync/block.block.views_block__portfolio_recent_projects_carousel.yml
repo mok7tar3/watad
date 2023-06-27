@@ -1,0 +1,51 @@
+uuid: d4626c38-3361-4555-89cc-d7605f8756ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_corporate_01
+    - views.view.portfolio
+  module:
+    - block_visibility_groups
+    - hsblock
+    - views
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: 'fullwidth framewidth'
+    block_subtitle: 'Our awesome Portfolios'
+    block_title_style: block-title-2
+    block_title_align: block-title-center
+    classes: ''
+    block_padding_top: 0px
+    block_padding_right: ''
+    block_padding_bottom: 0px
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: views_block__portfolio_recent_projects_carousel
+theme: martis
+region: content_wide
+weight: -56
+provider: null
+plugin: 'views_block:portfolio-recent_projects_carousel'
+settings:
+  id: 'views_block:portfolio-recent_projects_carousel'
+  label: 'We create digital products that projects our clients brands.'
+  label_display: visible
+  provider: views
+  views_label: 'We create digital products that projects our clients brands.'
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_corporate_01

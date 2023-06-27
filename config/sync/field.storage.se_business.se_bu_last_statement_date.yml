@@ -1,0 +1,22 @@
+uuid: c66dffac-92d9-4dab-a372-4d6212fc2776
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - se_business
+_core:
+  default_config_hash: ddMjWQ1XhKVn1Hvw8UmHcRZwBy7_6N_rvhoU-wU81VQ
+id: se_business.se_bu_last_statement_date
+field_name: se_bu_last_statement_date
+entity_type: se_business
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

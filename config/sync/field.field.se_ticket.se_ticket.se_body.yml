@@ -1,0 +1,23 @@
+uuid: e04eec9e-bd3b-4fa2-a401-b7add74c9d83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_ticket.se_body
+  module:
+    - se_ticket
+    - text
+_core:
+  default_config_hash: BjxeAhm4D7hSGvsutvsQHPU7bqy-EqFqv1dQdkhIj84
+id: se_ticket.se_ticket.se_body
+field_name: se_body
+entity_type: se_ticket
+bundle: se_ticket
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

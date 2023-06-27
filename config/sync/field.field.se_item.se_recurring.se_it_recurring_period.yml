@@ -1,0 +1,24 @@
+uuid: c1c2373f-a9ee-411e-bbe1-1bbf9439a713
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_item.se_it_recurring_period
+    - se_item.se_item_type.se_recurring
+  module:
+    - duration_field
+_core:
+  default_config_hash: RWc5i9-gMXtoWIpyNZCkdb3RyG793elo6GE_q0K7uQo
+id: se_item.se_recurring.se_it_recurring_period
+field_name: se_it_recurring_period
+entity_type: se_item
+bundle: se_recurring
+label: 'Recurring period'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  granularity: 'y:m:d'
+field_type: duration

@@ -1,0 +1,22 @@
+uuid: 6d4c89f5-0228-4eb1-a360-a20fabd0f84c
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_business
+    - se_information
+_core:
+  default_config_hash: PFBDo3mapOw0WEQGpJP5R6bdeR_aq4ZxA1BjODjtSWM
+id: se_information.se_bu_ref
+field_name: se_bu_ref
+entity_type: se_information
+type: entity_reference
+settings:
+  target_type: se_business
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

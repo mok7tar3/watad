@@ -1,0 +1,10 @@
+uuid: d439f73b-ea3a-480e-9a79-ff72d652a1b1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MyD6x3L3io7j6pTOw7JJXoqZSkW0GezRHfry8GLM57I
+id: se_firewall
+label: Firewall
+locked: null
+pattern: null

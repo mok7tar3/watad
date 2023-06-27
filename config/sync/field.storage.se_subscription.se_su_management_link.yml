@@ -1,0 +1,21 @@
+uuid: c60c5da0-fed0-4adf-bc98-bc036a5fe76d
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - se_subscription
+_core:
+  default_config_hash: rsWEiFr25GIKmOQhtbcOf1vXsSGdAlA0ZzeGJw-Et6k
+id: se_subscription.se_su_management_link
+field_name: se_su_management_link
+entity_type: se_subscription
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

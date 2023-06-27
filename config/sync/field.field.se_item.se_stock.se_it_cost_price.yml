@@ -1,0 +1,27 @@
+uuid: 62916035-e481-43a5-b16d-58d8c2def4b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_item.se_it_cost_price
+    - se_item.se_item_type.se_stock
+  module:
+    - se_accounting
+_core:
+  default_config_hash: JYSgNYDKneSMka54GJfKCRdRhy2gfKlKfvfaOLjb8Is
+id: se_item.se_stock.se_it_cost_price
+field_name: se_it_cost_price
+entity_type: se_item
+bundle: se_stock
+label: 'Purchase price'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: se_currency

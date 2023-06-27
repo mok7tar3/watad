@@ -1,0 +1,52 @@
+uuid: dc716beb-28bb-4635-8901-3cf8b124341b
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - commerce_currency_resolver
+    - hsblock
+    - system
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: currency_block
+theme: martis
+region: header_top_second
+weight: -43
+provider: null
+plugin: commerce_currency_resolver
+settings:
+  id: commerce_currency_resolver
+  label: 'Currency block'
+  label_display: '0'
+  provider: commerce_currency_resolver
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/corporate-01\r\n/corporate-02\r\n/corporate-03\r\n/personal-01\r\n/personal-02"

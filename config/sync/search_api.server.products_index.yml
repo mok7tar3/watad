@@ -1,0 +1,17 @@
+uuid: 9937ef38-502a-4273-8673-cbf9caaf97d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+id: products_index
+name: 'Products Index'
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 1
+  matching: words
+  autocomplete:
+    suggest_suffix: true
+    suggest_words: true

@@ -1,0 +1,91 @@
+uuid: bb5e7e41-b27d-4363-82bd-7037912e1d03
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.shoe
+    - core.entity_view_mode.commerce_product_variation.catalog
+    - field.field.commerce_product_variation.shoe.attribute_color
+    - field.field.commerce_product_variation.shoe.attribute_shoe_size
+    - field.field.commerce_product_variation.shoe.field_image
+    - field.field.commerce_product_variation.shoe.field_stock_level
+    - field.field.commerce_product_variation.shoe.weight
+    - image.style.480x480
+  module:
+    - commerce_order
+    - field_layout
+    - image_delta_formatter
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: commerce_product_variation.shoe.catalog
+targetEntityType: commerce_product_variation
+bundle: shoe
+mode: catalog
+content:
+  attribute_color:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  attribute_shoe_size:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_image:
+    type: image_delta_formatter
+    label: hidden
+    settings:
+      deltas: '0, 1'
+      image_style: 480x480
+      image_link: content
+      deltas_reversed: 0
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  list_price:
+    type: commerce_price_calculated
+    label: hidden
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+      adjustment_types: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  price:
+    type: commerce_price_calculated
+    label: hidden
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+      adjustment_types: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_stock_level: true
+  langcode: true
+  product_id: true
+  search_api_excerpt: true
+  sku: true
+  weight: true

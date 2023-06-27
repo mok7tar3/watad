@@ -1,0 +1,31 @@
+uuid: 50690da8-f556-4bb7-a1dd-5e94950f252b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_item.se_it_manufacturer_ref
+    - se_item.se_item_type.se_stock
+    - taxonomy.vocabulary.se_manufacturer
+_core:
+  default_config_hash: IHi-mtL8eJ413C5AVBBPfzoHyZ5JQVQ35I9RN_RNeNY
+id: se_item.se_stock.se_it_manufacturer_ref
+field_name: se_it_manufacturer_ref
+entity_type: se_item
+bundle: se_stock
+label: Manufacturer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      se_manufacturer: se_manufacturer
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

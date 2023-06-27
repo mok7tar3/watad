@@ -1,0 +1,23 @@
+uuid: b30c22e6-6065-4f4d-adad-4682fb4e0ad4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_item.se_it_description
+    - se_item.se_item_type.se_assembly
+  module:
+    - text
+_core:
+  default_config_hash: C-HASQ_RM1MzBAUn_HgbsJfVVLRt7vW5vRAjjoN0YNE
+id: se_item.se_assembly.se_it_description
+field_name: se_it_description
+entity_type: se_item
+bundle: se_assembly
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

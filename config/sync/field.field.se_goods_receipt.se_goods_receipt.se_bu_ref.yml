@@ -1,0 +1,29 @@
+uuid: a51eb8e3-558f-4c12-8bd6-fe256b4912b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_goods_receipt.se_bu_ref
+  module:
+    - se_goods_receipt
+_core:
+  default_config_hash: 3_EIBPmFMN0TXaT_xtbVMTLsQGiqxX2cHcnfiJe9vhY
+id: se_goods_receipt.se_goods_receipt.se_bu_ref
+field_name: se_bu_ref
+entity_type: se_goods_receipt
+bundle: se_goods_receipt
+label: Supplier
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:se_business'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+field_type: entity_reference

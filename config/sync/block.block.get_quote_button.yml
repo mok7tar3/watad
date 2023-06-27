@@ -1,0 +1,57 @@
+uuid: 7d406282-5f4b-4efe-9c5b-f931ce9861cc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0e3add3f-ac98-4671-82fc-882d977ab5ec'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+    - system
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: get_quote_button
+theme: martis
+region: header_right
+weight: 0
+provider: null
+plugin: 'block_content:0e3add3f-ac98-4671-82fc-882d977ab5ec'
+settings:
+  id: 'block_content:0e3add3f-ac98-4671-82fc-882d977ab5ec'
+  label: 'Get a Quote Button'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/corporate-02\r\n/corporate-03"

@@ -1,0 +1,17 @@
+uuid: 5c900f4d-8fda-48f1-b718-9b41d1d3fd72
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - se_bill
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_bill.se_bill
+target_entity_type_id: se_bill
+target_bundle: se_bill
+default_langcode: site_default
+language_alterable: false

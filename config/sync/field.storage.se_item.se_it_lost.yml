@@ -1,0 +1,20 @@
+uuid: 787e2098-c73f-4af3-a708-fa44cab46e2f
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_item
+_core:
+  default_config_hash: W5WY0_k3jFEvPHfhMSyVYs_39uBRkOQ2dTCjqqJlxDA
+id: se_item.se_it_lost
+field_name: se_it_lost
+entity_type: se_item
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

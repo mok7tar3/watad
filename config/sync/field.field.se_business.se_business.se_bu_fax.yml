@@ -1,0 +1,23 @@
+uuid: 17c105a1-682a-4d83-a185-7c04d03feca3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_business.se_bu_fax
+  module:
+    - se_business
+    - telephone
+_core:
+  default_config_hash: tnCb7XiqzkqI6KmaRPpddk3UW5V3F4vr0ZPXgtYDlOs
+id: se_business.se_business.se_bu_fax
+field_name: se_bu_fax
+entity_type: se_business
+bundle: se_business
+label: Fax
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

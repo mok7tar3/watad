@@ -1,0 +1,53 @@
+uuid: 93133069-97fe-4549-9296-48861895d124
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_corporate_03
+  content:
+    - 'block_content:feature_block:adeef91f-8696-4532-8657-21daee93fe1c'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: /themes/martis/assets/images/bg/bg3.png
+    block_bg_repeat: no-repeat
+    block_bg_position: 'right bottom'
+    block_bg_size: contain
+    block_parallax_bg: parallax-bg
+id: home07_feature_block2
+theme: martis
+region: content_wide
+weight: -36
+provider: null
+plugin: 'block_content:adeef91f-8696-4532-8657-21daee93fe1c'
+settings:
+  id: 'block_content:adeef91f-8696-4532-8657-21daee93fe1c'
+  label: 'Our area of expertise is so broad to accommodate all your business needs.'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_corporate_03

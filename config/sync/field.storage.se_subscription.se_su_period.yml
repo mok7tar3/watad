@@ -1,0 +1,21 @@
+uuid: fe10c8c3-d902-4d14-8964-ca74dbc0430b
+langcode: en
+status: true
+dependencies:
+  module:
+    - duration_field
+    - se_subscription
+_core:
+  default_config_hash: uOiN8Bna8EtO6opUNdB_38XdFcsTKKTZB4R-7LGgVw8
+id: se_subscription.se_su_period
+field_name: se_su_period
+entity_type: se_subscription
+type: duration
+settings: {  }
+module: duration_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

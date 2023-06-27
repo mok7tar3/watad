@@ -1,0 +1,22 @@
+uuid: 497d4737-aee4-4bc4-bd25-9024d054132e
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_bill
+    - se_business
+_core:
+  default_config_hash: EIh7UIGLyujUbJJg6-mkbeSvPMCAVXMj6NBhZ7efo70
+id: se_bill.se_bu_ref
+field_name: se_bu_ref
+entity_type: se_bill
+type: entity_reference
+settings:
+  target_type: se_business
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

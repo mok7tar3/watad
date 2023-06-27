@@ -1,0 +1,25 @@
+uuid: d2e1ed54-30dc-4128-9f92-7ad91b6ac31d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_subscription.se_su_use_bu_due
+    - se_subscription.se_subscription_type.se_email_account
+_core:
+  default_config_hash: eEZEvb7qqk11zCOog3x3X3o3ZYU1YMOsRP5r9CPmf0E
+id: se_subscription.se_email_account.se_su_use_bu_due
+field_name: se_su_use_bu_due
+entity_type: se_subscription
+bundle: se_email_account
+label: 'Use business invoice date'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

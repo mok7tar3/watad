@@ -1,0 +1,29 @@
+uuid: bc086920-fee0-4bd2-93de-3b3f05d5bc54
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_information.se_bu_ref
+    - se_information.se_information_type.se_document
+_core:
+  default_config_hash: 1bTUxEChXMSc4V3Goe36YNQVqKVem7g5T1q8ZDQ4sDo
+id: se_information.se_document.se_bu_ref
+field_name: se_bu_ref
+entity_type: se_information
+bundle: se_document
+label: Business
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:se_business'
+  handler_settings:
+    target_bundles:
+      se_business: se_business
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: se_business
+field_type: entity_reference

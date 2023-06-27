@@ -1,0 +1,20 @@
+uuid: 58465a63-ce56-40e4-907c-ff88a3c89e32
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_subscription.se_subscription_type.se_managed_service
+id: se_subscription.se_managed_service.user_id
+field_name: user_id
+entity_type: se_subscription
+bundle: se_managed_service
+label: 'Authored by'
+description: 'The user ID of author of the Subscription entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

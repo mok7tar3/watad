@@ -1,0 +1,21 @@
+uuid: 6ded0b9a-446e-4867-bd27-5ecbc4c82d77
+langcode: en
+status: true
+dependencies:
+  module:
+    - duration_field
+    - se_item
+_core:
+  default_config_hash: 6IXtSWEc44RzWoBxeDW7vWZWcXIm0gv2Cggy9sYXkAU
+id: se_item.se_it_recurring_period
+field_name: se_it_recurring_period
+entity_type: se_item
+type: duration
+settings: {  }
+module: duration_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

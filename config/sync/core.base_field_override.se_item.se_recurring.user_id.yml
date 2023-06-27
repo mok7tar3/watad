@@ -1,0 +1,20 @@
+uuid: 55b2b6e5-018f-45f3-8904-fbb3156116e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_item.se_item_type.se_recurring
+id: se_item.se_recurring.user_id
+field_name: user_id
+entity_type: se_item
+bundle: se_recurring
+label: 'Authored by'
+description: 'The user ID of author of the Item entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

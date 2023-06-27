@@ -1,0 +1,51 @@
+uuid: 5f0cb809-9ba0-4a08-8a16-7101293863b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_shop_01
+    - views.view.product_taxonomy
+  module:
+    - block_visibility_groups
+    - hsblock
+    - views
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: 'fullwidth framewidth'
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: 0px
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: views_block__product_taxonomy_product_category_count
+theme: martis
+region: content_wide_top
+weight: -70
+provider: null
+plugin: 'views_block:product_taxonomy-product_category_count'
+settings:
+  id: 'views_block:product_taxonomy-product_category_count'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_shop_01

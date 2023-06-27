@@ -1,0 +1,14 @@
+third_party_settings:
+  field_group:
+    group_bu_tab_details:
+      label: التفاصيل
+    group_bu_tab_location:
+      label: الموضع
+    group_bu_tab_quotes:
+      label: الاقتباسات
+    group_bu_tab_information:
+      label: معلومات
+    group_bu_tab_reports:
+      label: التقارير
+    group_bu_tab_subscriptions:
+      label: الاشتراكات

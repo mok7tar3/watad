@@ -1,0 +1,23 @@
+uuid: 20588316-0952-4a04-9da0-d03051d24e57
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_business
+_core:
+  default_config_hash: f8LBbHIcbH2_jOyAvNJk79uCEiLoPkoAGiOB5oyW668
+id: se_business.se_bu_postal_address
+field_name: se_bu_postal_address
+entity_type: se_business
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

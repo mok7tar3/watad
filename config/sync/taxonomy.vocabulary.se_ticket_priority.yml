@@ -1,0 +1,10 @@
+uuid: a93e7c41-e6a8-4c8b-9bd6-bd6d5c935484
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 0CgmLlJrdC1w070d2idZ-wdLSLuwCP0KDi_rw5WhFYs
+name: 'Ticket priority'
+vid: se_ticket_priority
+description: 'Ticket priority taxonomy'
+weight: 0

@@ -1,0 +1,10 @@
+uuid: d8c5f15e-131e-4927-b65f-a76f6208fa13
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: gF6vusisIsYou4eD5d9OMKZ6B9Wi6k0A2uO6t4ujPGc
+id: se_domain_hosting
+label: 'Domain hosting'
+locked: null
+pattern: null

@@ -1,0 +1,27 @@
+uuid: 6de19861-eb93-449c-b4cf-6506270ea1df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_quote.se_qu_total
+  module:
+    - se_accounting
+    - se_quote
+_core:
+  default_config_hash: A3kMgs0Qh3GQm8tSvnilDO6Mp0IAUxpFw_UOWGrAvIo
+id: se_quote.se_quote.se_qu_total
+field_name: se_qu_total
+entity_type: se_quote
+bundle: se_quote
+label: Total
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: se_currency

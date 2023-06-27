@@ -1,0 +1,18 @@
+uuid: 3c78d1de-f9c2-4a6a-8cc6-58e2ef3f266d
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_timekeeping
+id: comment.se_timekeeping.subject
+field_name: subject
+entity_type: comment
+bundle: se_timekeeping
+label: Subject
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

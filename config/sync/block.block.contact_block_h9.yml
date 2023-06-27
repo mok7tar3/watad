@@ -1,0 +1,50 @@
+uuid: 666d16c4-afae-48ee-9989-6522dc54b88a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_personal_01
+    - contact.form.feedback
+  module:
+    - block_visibility_groups
+    - contact_block
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'CONTACT ME'
+    block_title_style: block-title-2
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: contact_block_h9
+theme: martis
+region: content_widget_third
+weight: 0
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Get in touch with me.'
+  label_display: visible
+  provider: contact_block
+  contact_form: feedback
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_personal_01

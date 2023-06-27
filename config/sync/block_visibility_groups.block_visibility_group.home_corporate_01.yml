@@ -1,0 +1,17 @@
+uuid: 7a08da32-7255-4cf0-859e-07f718bd834c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: home_corporate_01
+label: 'Home Corporate 01'
+logic: and
+conditions:
+  f68572f6-efdc-4112-acce-7abae852e144:
+    id: request_path
+    negate: false
+    uuid: f68572f6-efdc-4112-acce-7abae852e144
+    context_mapping: {  }
+    pages: /corporate-01
+allow_other_conditions: false

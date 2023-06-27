@@ -1,0 +1,14 @@
+uuid: c50a3ba6-18b4-436b-81a8-c60e86e86665
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.owner
+  module:
+    - user
+id: user_add_role_action.owner
+label: 'Add the Owner/CEO/CFO role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: owner

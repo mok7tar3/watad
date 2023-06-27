@@ -1,0 +1,18 @@
+uuid: 92cc83ed-bb02-4636-972e-e12f72245f80
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.pricing_table_display
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.pricing_table_display
+target_entity_type_id: block_content
+target_bundle: pricing_table_display
+default_langcode: site_default
+language_alterable: false

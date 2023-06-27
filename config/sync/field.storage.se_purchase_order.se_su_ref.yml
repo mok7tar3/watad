@@ -1,0 +1,22 @@
+uuid: 6d874cf9-a103-4b85-a25b-e8f052d00827
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_business
+    - se_purchase_order
+_core:
+  default_config_hash: gF0ZssZMDmuoPm42KvF6wLHDA4HMne90tjsj9CoHJr0
+id: se_purchase_order.se_su_ref
+field_name: se_su_ref
+entity_type: se_purchase_order
+type: entity_reference
+settings:
+  target_type: se_business
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

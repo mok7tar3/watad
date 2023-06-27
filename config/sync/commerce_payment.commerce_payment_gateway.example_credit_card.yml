@@ -1,0 +1,18 @@
+uuid: a6cec4d3-babf-448d-b86d-d7e2eced4cd8
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_payment_example
+id: example_credit_card
+label: 'Example credit card'
+weight: -10
+plugin: example_onsite
+configuration:
+  display_label: Example
+  mode: test
+  payment_method_types:
+    - credit_card
+  api_key: '1234567890'
+conditions: {  }
+conditionOperator: AND

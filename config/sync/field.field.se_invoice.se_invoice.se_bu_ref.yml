@@ -1,0 +1,29 @@
+uuid: b7c7bb00-5336-477e-b233-a4d322c3545b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_invoice.se_bu_ref
+  module:
+    - se_invoice
+_core:
+  default_config_hash: Oac53-7PQPgRqij2W_yooCltRo0rqMSWujyTd8hnPK8
+id: se_invoice.se_invoice.se_bu_ref
+field_name: se_bu_ref
+entity_type: se_invoice
+bundle: se_invoice
+label: Business
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:se_business'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+field_type: entity_reference

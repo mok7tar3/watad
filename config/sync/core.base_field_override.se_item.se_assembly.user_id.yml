@@ -1,0 +1,20 @@
+uuid: c06ff5f0-0b72-4e36-bb4b-b022a2bcb61d
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_item.se_item_type.se_assembly
+id: se_item.se_assembly.user_id
+field_name: user_id
+entity_type: se_item
+bundle: se_assembly
+label: 'Authored by'
+description: 'The user ID of author of the Item entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,11 @@
+uuid: e5caec08-03ac-4ef8-b8ea-5bc88cbf1421
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: XDyRMbsdJZbUgGUwFc-0b1ctU9DBpaV3W_Yzp0iMmTY
+id: supplier
+label: Supplier
+weight: 4
+is_admin: null
+permissions: {  }

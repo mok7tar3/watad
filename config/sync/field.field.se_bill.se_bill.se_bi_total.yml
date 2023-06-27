@@ -1,0 +1,27 @@
+uuid: 27230c1c-e81d-40f5-a050-5a136c4a561d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_bill.se_bi_total
+  module:
+    - se_accounting
+    - se_bill
+_core:
+  default_config_hash: HfQoTS48TWVXZAVpTpgpAaMbgTZcXpCO0by1w1o_Vys
+id: se_bill.se_bill.se_bi_total
+field_name: se_bi_total
+entity_type: se_bill
+bundle: se_bill
+label: Total
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: se_currency

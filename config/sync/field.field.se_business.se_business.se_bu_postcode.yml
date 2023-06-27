@@ -1,0 +1,22 @@
+uuid: d97ff1bc-c317-4862-b28b-4bc78931b9b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_business.se_bu_postcode
+  module:
+    - se_business
+_core:
+  default_config_hash: RmOaG7iRrsxrK_j__UDZdPlslDz0OIvbQr7JWgmwLPM
+id: se_business.se_business.se_bu_postcode
+field_name: se_bu_postcode
+entity_type: se_business
+bundle: se_business
+label: Postcode
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

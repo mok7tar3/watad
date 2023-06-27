@@ -1,0 +1,18 @@
+uuid: af8150c6-52c0-4345-9ab1-e1692f70a019
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.reviews
+id: comment.reviews.homepage
+field_name: homepage
+entity_type: comment
+bundle: reviews
+label: Homepage
+description: 'The comment author''s home page address.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: uri

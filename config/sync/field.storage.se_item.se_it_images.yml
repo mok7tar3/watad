@@ -1,0 +1,32 @@
+uuid: 1338a1ca-cbdf-4aac-b107-a051657a74d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - se_item
+_core:
+  default_config_hash: E4qjoPdy9UBSnILDdYvrQkfQnC3jepFoRcSLUvgV1fM
+id: se_item.se_it_images
+field_name: se_it_images
+entity_type: se_item
+type: image
+settings:
+  uri_scheme: private
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

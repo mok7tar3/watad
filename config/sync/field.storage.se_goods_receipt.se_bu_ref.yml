@@ -1,0 +1,22 @@
+uuid: ecaad9d2-88e5-475c-a9ab-200f7cc82e4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_business
+    - se_goods_receipt
+_core:
+  default_config_hash: 30JhcGZ--iLKfd9cTMiQ3xnR_aaVWEodBUfUKOLR1u4
+id: se_goods_receipt.se_bu_ref
+field_name: se_bu_ref
+entity_type: se_goods_receipt
+type: entity_reference
+settings:
+  target_type: se_business
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

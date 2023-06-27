@@ -1,0 +1,53 @@
+uuid: e05a2120-980e-435f-bf36-f732f20f2d15
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_corporate_01
+  content:
+    - 'block_content:pricing_table_display:b735a851-fe00-49e1-9392-df73cd504b16'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'Get in touch for free consultation'
+    block_title_style: block-title-2
+    block_title_align: block-title-center
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: title-light
+    block_bg_color: '#444444'
+    block_bg_image_path: /themes/martis/assets/images/bg/bg1.jpg
+    block_bg_repeat: no-repeat
+    block_bg_position: 'center center'
+    block_bg_size: cover
+    block_parallax_bg: parallax-bg
+id: pricing
+theme: martis
+region: content_wide
+weight: -53
+provider: null
+plugin: 'block_content:b735a851-fe00-49e1-9392-df73cd504b16'
+settings:
+  id: 'block_content:b735a851-fe00-49e1-9392-df73cd504b16'
+  label: 'Choose the plan that suite your business or get in touch free for quotation.'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_corporate_01

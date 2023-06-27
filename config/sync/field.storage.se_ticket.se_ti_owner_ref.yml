@@ -1,0 +1,22 @@
+uuid: 6432b17e-1b10-4984-a107-219428a3193a
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_ticket
+    - user
+_core:
+  default_config_hash: u6KlYW5J7s4JwSsAfvCbrCtaR_lYwFtN7Q-5Mj5_HKI
+id: se_ticket.se_ti_owner_ref
+field_name: se_ti_owner_ref
+entity_type: se_ticket
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

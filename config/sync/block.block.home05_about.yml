@@ -1,0 +1,53 @@
+uuid: cb62acb6-4570-4a6a-9c7c-c8799b8a165f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_corporate_01
+  content:
+    - 'block_content:feature_block:e30dc42b-5a20-4f8c-8e9c-e9aa4e704910'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'We are a design agency with a difference'
+    block_title_style: block-title-2
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: 0px
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: '#fbfbfb'
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: home05_about
+theme: martis
+region: content_wide
+weight: -60
+provider: null
+plugin: 'block_content:e30dc42b-5a20-4f8c-8e9c-e9aa4e704910'
+settings:
+  id: 'block_content:e30dc42b-5a20-4f8c-8e9c-e9aa4e704910'
+  label: 'We help businesses succeed beyond limitation through strategic approach.'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_corporate_01

@@ -1,0 +1,18 @@
+uuid: e4dac7bd-7afe-4a77-9cc1-11a49cbce2ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_timekeeping
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: comment.se_timekeeping
+target_entity_type_id: comment
+target_bundle: se_timekeeping
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,21 @@
+uuid: 104af2eb-d176-465d-9445-741a0949f498
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - text
+_core:
+  default_config_hash: xQgRVMP2vTFDJK36nRkVNiI_P1TDyIo_uGi8Oeo_COE
+id: comment.se_tk_comment
+field_name: se_tk_comment
+entity_type: comment
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

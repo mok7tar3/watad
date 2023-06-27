@@ -1,0 +1,55 @@
+uuid: b3551404-3223-424d-8255-a33e9fdf3b38
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.category_menu
+  module:
+    - block_visibility_groups
+    - facets
+    - hsblock
+    - system
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: category_menu
+theme: martis
+region: header_category_menu
+weight: -27
+provider: null
+plugin: 'facet_block:category_menu'
+settings:
+  id: 'facet_block:category_menu'
+  label: 'All Categories'
+  label_display: visible
+  provider: facets
+  block_id: category_menu
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/shop-01\r\n/products\r\n/product/*"

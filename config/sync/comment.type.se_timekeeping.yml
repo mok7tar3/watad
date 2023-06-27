@@ -1,0 +1,10 @@
+uuid: 1f0edb37-95a5-417f-a70a-0061c4375eb0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: FvW2aRacLjsAUBs6Fyg3nTLlGua6R1QimsgjHyvmxtM
+id: se_timekeeping
+label: Timekeeping
+target_entity_type_id: se_ticket
+description: ''

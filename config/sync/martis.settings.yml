@@ -1,0 +1,38 @@
+_core:
+  default_config_hash: QBuTA8LsQ1W7AZFOUvHjKYo5njJ4DyGce5Ez9fwOvHA
+favicon:
+  use_default: true
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  logo: true
+  name: false
+  node_user_picture: true
+  slogan: false
+logo:
+  path: themes/martis/assets/images/logo.png
+  use_default: false
+preloader: 1
+scrolltop: 1
+site_layout: standard-layout
+nav_align: nav-left
+sticky_header: sticky-header
+footer_theme: 'light-footer text-light'
+rtl: 0
+header_style: header-default
+footer_first_size: col-md-4
+footer_second_size: col-md-2
+footer_third_size: col-md-2
+footer_forth_size: col-md-2
+footer_fifth_size: col-md-2
+footer_sixth_size: col-md-12
+product_teaser_attribute: product-teaser-attribute
+custom_css: ''
+header_top_theme: dark-header-top
+page_title_style: page-title1
+page_title_theme: dark-page-title
+cart_icon_theme: dark-cart_icon
+btn_style: btn-default
+color_scheme: light-scheme
+product_image_effect: product-image-zoom

@@ -1,0 +1,22 @@
+uuid: 83e80f63-2ad2-40f5-94d2-b62b1d425889
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_invoice.se_in_customer_order
+  module:
+    - se_invoice
+_core:
+  default_config_hash: 5il9ja-aKTLCifZVZtgB2jCIw3cXy-GYcp6l4yjTWq8
+id: se_invoice.se_invoice.se_in_customer_order
+field_name: se_in_customer_order
+entity_type: se_invoice
+bundle: se_invoice
+label: 'Customer order'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

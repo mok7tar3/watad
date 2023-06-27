@@ -1,0 +1,29 @@
+uuid: 62bf265b-6f65-4048-b7d1-931091465aef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_subscription.se_su_total
+    - se_subscription.se_subscription_type.se_managed_service
+  module:
+    - se_accounting
+_core:
+  default_config_hash: m5Z_7o-63EDeofkbsBAziLa00gBQ1p4WXDEwsszIiAM
+id: se_subscription.se_managed_service.se_su_total
+field_name: se_su_total
+entity_type: se_subscription
+bundle: se_managed_service
+label: Total
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings:
+  min: ''
+  max: ''
+  prefix: ''
+  suffix: ''
+field_type: se_currency

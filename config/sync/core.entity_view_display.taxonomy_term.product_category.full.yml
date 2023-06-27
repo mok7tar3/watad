@@ -1,0 +1,46 @@
+uuid: 712e77fe-0d58-413b-9a37-21a61aea7fbc
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.full
+    - field.field.taxonomy_term.product_category.field_icon_image
+    - field.field.taxonomy_term.product_category.field_image
+    - taxonomy.vocabulary.product_category
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: taxonomy_term.product_category.full
+targetEntityType: taxonomy_term
+bundle: product_category
+mode: full
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_icon_image: true
+  langcode: true
+  search_api_excerpt: true

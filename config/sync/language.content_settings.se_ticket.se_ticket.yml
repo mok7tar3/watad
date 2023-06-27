@@ -1,0 +1,17 @@
+uuid: 64e3d44d-38c2-4fff-98c5-a70023199b4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - se_ticket
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_ticket.se_ticket
+target_entity_type_id: se_ticket
+target_bundle: se_ticket
+default_langcode: site_default
+language_alterable: true

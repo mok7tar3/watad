@@ -1,0 +1,21 @@
+uuid: 22a37f91-19c1-46c9-99bc-5c60eb7f0dff
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_accounting
+    - se_item
+_core:
+  default_config_hash: VMpVl5P3alHty1NF_5gcXfRMna5bSbX7TPxVvy26yTk
+id: se_item.se_it_sell_price
+field_name: se_it_sell_price
+entity_type: se_item
+type: se_currency
+settings: {  }
+module: se_accounting
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

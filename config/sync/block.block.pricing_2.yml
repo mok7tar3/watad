@@ -1,0 +1,53 @@
+uuid: 944471c3-37e6-4142-9b2a-861659ad5e80
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_corporate_03
+  content:
+    - 'block_content:pricing_table_display:b735a851-fe00-49e1-9392-df73cd504b16'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'OUR PACKAGES'
+    block_title_style: block-title-2
+    block_title_align: block-title-center
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: pricing_2
+theme: martis
+region: content_wide
+weight: -34
+provider: null
+plugin: 'block_content:b735a851-fe00-49e1-9392-df73cd504b16'
+settings:
+  id: 'block_content:b735a851-fe00-49e1-9392-df73cd504b16'
+  label: 'Competitive pricing that is so affordable either monthly or annually.'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_corporate_03

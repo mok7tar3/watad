@@ -1,0 +1,18 @@
+uuid: b3e8c579-616b-4d16-9a9b-7c9b14ac0378
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_subscription.se_subscription_type.se_anti_virus
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_subscription.se_anti_virus
+target_entity_type_id: se_subscription
+target_bundle: se_anti_virus
+default_langcode: site_default
+language_alterable: false

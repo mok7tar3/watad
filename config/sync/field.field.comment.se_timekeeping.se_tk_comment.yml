@@ -1,0 +1,23 @@
+uuid: 044d0e0f-33fe-49c1-b5e5-60352893c17a
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_timekeeping
+    - field.storage.comment.se_tk_comment
+  module:
+    - text
+_core:
+  default_config_hash: K0E4XAutN-PKyrn7JEmQ6ASSVNcrAV2kBCyjxuWzFiY
+id: comment.se_timekeeping.se_tk_comment
+field_name: se_tk_comment
+entity_type: comment
+bundle: se_timekeeping
+label: Timekeeping
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

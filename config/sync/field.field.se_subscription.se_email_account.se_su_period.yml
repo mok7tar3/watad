@@ -1,0 +1,24 @@
+uuid: 0b303f08-26d0-4446-99b4-f3105af2d2b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_subscription.se_su_period
+    - se_subscription.se_subscription_type.se_email_account
+  module:
+    - duration_field
+_core:
+  default_config_hash: 44GBn7zcWym4kiBRej6vECghgD30SlxLi97DpQub7kI
+id: se_subscription.se_email_account.se_su_period
+field_name: se_su_period
+entity_type: se_subscription
+bundle: se_email_account
+label: Period
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  granularity: 'y:m'
+field_type: duration

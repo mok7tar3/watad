@@ -1,0 +1,21 @@
+uuid: c51ee388-2a20-4cd9-8f72-218709813498
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_accounting
+    - se_item
+_core:
+  default_config_hash: zBz_XZAPClfxSoJguKZceYdq4J0f8BQJ7zNEeJxpWKY
+id: se_item.se_it_cost_price
+field_name: se_it_cost_price
+entity_type: se_item
+type: se_currency
+settings: {  }
+module: se_accounting
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

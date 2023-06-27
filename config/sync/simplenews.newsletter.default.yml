@@ -1,0 +1,21 @@
+uuid: 869e5965-ae29-4615-a5be-55c03a2a9f29
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hj6zGNwndnW_J6lKfFcg-tY5e5YqWfgXyt0qioGtXL8
+name: 'Default newsletter'
+id: default
+description: 'This is an example newsletter. Change it.'
+format: plain
+priority: 0
+receipt: true
+from_name: 'Martis Drupal eCommerce Theme'
+subject: '[[simplenews-newsletter:name]] [node:title]'
+from_address: mail@company.com
+hyperlinks: false
+allowed_handlers:
+  simplenews_all: '0'
+new_account: none
+access: default
+weight: 0

@@ -1,0 +1,29 @@
+uuid: 004b55a3-3246-443f-a5d3-640d6bd08242
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_invoice.se_in_outstanding
+  module:
+    - se_accounting
+    - se_invoice
+_core:
+  default_config_hash: _GW7CenKs5RNusmxMb2P7p_JzyowGVDaQyT8veLt8Ow
+id: se_invoice.se_invoice.se_in_outstanding
+field_name: se_in_outstanding
+entity_type: se_invoice
+bundle: se_invoice
+label: Outstanding
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: ''
+  max: ''
+  prefix: ''
+  suffix: ''
+field_type: se_currency

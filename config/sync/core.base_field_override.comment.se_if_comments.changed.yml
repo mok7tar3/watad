@@ -1,0 +1,18 @@
+uuid: bc6066cf-a897-46b9-b369-b9743aeb37c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_if_comments
+id: comment.se_if_comments.changed
+field_name: changed
+entity_type: comment
+bundle: se_if_comments
+label: Changed
+description: 'The time that the comment was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

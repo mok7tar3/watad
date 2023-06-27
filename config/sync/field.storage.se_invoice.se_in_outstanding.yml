@@ -1,0 +1,21 @@
+uuid: 0ba768c2-938c-4ead-8688-adfa515b023d
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_accounting
+    - se_invoice
+_core:
+  default_config_hash: xizPvoFT13d_IE7t22QbQly9RfRT1QAJcMzCCQbSRhQ
+id: se_invoice.se_in_outstanding
+field_name: se_in_outstanding
+entity_type: se_invoice
+type: se_currency
+settings: {  }
+module: se_accounting
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,18 @@
+uuid: 54b765cd-f329-429c-88e1-bfb4bf16e39d
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_stock_local.commerce_stock_location_type.default
+id: commerce_stock_location.default.name
+field_name: name
+entity_type: commerce_stock_location
+bundle: default
+label: Name
+description: 'The name of the stock location entity.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

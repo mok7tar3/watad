@@ -1,0 +1,51 @@
+uuid: ff81f4b0-ca9d-478a-8841-89f7cb6228cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_corporate_02
+    - views.view.portfolio
+  module:
+    - block_visibility_groups
+    - hsblock
+    - views
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: 'fullwidth framewidth'
+    block_subtitle: 'SELECTED WORKS'
+    block_title_style: block-title-2
+    block_title_align: block-title-center
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: 80px
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: '#fdfdfd'
+    block_bg_image_path: /themes/martis/assets/images/bg/bg1.png
+    block_bg_repeat: repeat
+    block_bg_position: 'center top'
+    block_bg_size: cover
+    block_parallax_bg: parallax-bg
+id: views_block__portfolio_recent_projects_shuffle
+theme: martis
+region: content_wide
+weight: -43
+provider: null
+plugin: 'views_block:portfolio-recent_projects_shuffle'
+settings:
+  id: 'views_block:portfolio-recent_projects_shuffle'
+  label: 'Unbeatable project showcase.'
+  label_display: visible
+  provider: views
+  views_label: 'Unbeatable project showcase.'
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_corporate_02

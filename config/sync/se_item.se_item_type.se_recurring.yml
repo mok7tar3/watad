@@ -1,0 +1,10 @@
+uuid: 962ee47b-7547-449d-99c8-0d76223e816c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Cbe1tGAQP4QE6Ct6BmAbMcf4rw9TOPIsbIYANWC1_oc
+id: se_recurring
+label: Recurring
+locked: null
+pattern: null

@@ -1,0 +1,50 @@
+uuid: 4d8c638f-af5c-4466-9ab3-4e5ef2bf5363
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_shop_03
+    - facets.facet.category_menu
+  module:
+    - block_visibility_groups
+    - facets
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: open
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: category_menu_open
+theme: martis
+region: header_category_menu
+weight: -26
+provider: null
+plugin: 'facet_block:category_menu'
+settings:
+  id: 'facet_block:category_menu'
+  label: 'All Categories'
+  label_display: visible
+  provider: facets
+  block_id: category_menu_open
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_shop_03

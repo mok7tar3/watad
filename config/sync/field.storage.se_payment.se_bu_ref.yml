@@ -1,0 +1,22 @@
+uuid: 86d1ed52-ddfe-4adb-9e4d-2faa2d34259e
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_business
+    - se_payment
+_core:
+  default_config_hash: nZjKiX11b6KSNFzYK5bfqfmOiKSdXe1RTgflrdJlCjA
+id: se_payment.se_bu_ref
+field_name: se_bu_ref
+entity_type: se_payment
+type: entity_reference
+settings:
+  target_type: se_business
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

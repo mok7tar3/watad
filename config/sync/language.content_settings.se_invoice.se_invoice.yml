@@ -1,0 +1,17 @@
+uuid: 617f5eed-3bf9-4a69-9421-c5dc3b552b6a
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - se_invoice
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_invoice.se_invoice
+target_entity_type_id: se_invoice
+target_bundle: se_invoice
+default_langcode: site_default
+language_alterable: false

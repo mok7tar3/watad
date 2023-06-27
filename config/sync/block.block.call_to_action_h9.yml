@@ -1,0 +1,53 @@
+uuid: 1ef2cd2e-04e6-4bf2-8e79-624ae2957447
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_personal_01
+  content:
+    - 'block_content:call_to_action:71d4ceae-a1d1-403b-b25f-073534a86361'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'HIRE ME TO CHANGE YOUR BRAND'
+    block_title_style: block-title-2
+    block_title_align: block-title-center
+    classes: ''
+    block_padding_top: 80px
+    block_padding_right: ''
+    block_padding_bottom: 80px
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: '#feb800'
+    block_bg_image_path: /themes/martis/assets/images/bg/bg5.jpg
+    block_bg_repeat: no-repeat
+    block_bg_position: 'center center'
+    block_bg_size: ''
+    block_parallax_bg: parallax-bg
+id: call_to_action_h9
+theme: martis
+region: content_wide
+weight: -28
+provider: null
+plugin: 'block_content:71d4ceae-a1d1-403b-b25f-073534a86361'
+settings:
+  id: 'block_content:71d4ceae-a1d1-403b-b25f-073534a86361'
+  label: 'Do you have a project, and you are looking for a creative solutions'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_personal_01

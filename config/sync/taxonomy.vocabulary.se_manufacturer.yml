@@ -1,0 +1,10 @@
+uuid: bb379651-30d8-4a43-a62e-be58076f1581
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Br9FEhdum45RlWCFU_WtYrIMTj_7O-A2-f-qW7BAbcQ
+name: Manufacturer
+vid: se_manufacturer
+description: 'Manufacturer taxonomy'
+weight: 0

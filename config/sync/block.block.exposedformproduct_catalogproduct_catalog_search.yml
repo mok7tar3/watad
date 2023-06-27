@@ -1,0 +1,55 @@
+uuid: 27498e4d-d01e-4c1b-8d74-56acb35fb19d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.product_catalog
+  module:
+    - block_visibility_groups
+    - hsblock
+    - system
+    - views
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: exposedformproduct_catalogproduct_catalog_search
+theme: martis
+region: header_search
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:product_catalog-product_catalog_search'
+settings:
+  id: 'views_exposed_filter_block:product_catalog-product_catalog_search'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/corporate-01\r\n/corporate-02\r\n/corporate-03\r\n/personal-01\r\n/personal-02"

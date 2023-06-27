@@ -1,0 +1,53 @@
+uuid: 79f1f3eb-2fa3-4f73-9f00-876446c38075
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_personal_02
+  content:
+    - 'block_content:basic:b893f808-4257-4b33-9632-a0a6e480addf'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'I always ensure I put in my very best into all work without ever thinking otherwise.'
+    block_title_style: block-title-1
+    block_title_align: block-title-center
+    classes: ''
+    block_padding_top: 80px
+    block_padding_right: ''
+    block_padding_bottom: 80px
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: /themes/martis/assets/images/bg/bg-h10.jpg
+    block_bg_repeat: no-repeat
+    block_bg_position: 'right bottom'
+    block_bg_size: contain
+    block_parallax_bg: ''
+id: contact_address
+theme: martis
+region: content_wide
+weight: -20
+provider: null
+plugin: 'block_content:b893f808-4257-4b33-9632-a0a6e480addf'
+settings:
+  id: 'block_content:b893f808-4257-4b33-9632-a0a6e480addf'
+  label: 'Get in touch with me'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_personal_02

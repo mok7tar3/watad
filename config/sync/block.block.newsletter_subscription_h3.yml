@@ -1,0 +1,54 @@
+uuid: d0b124c3-1ca7-45b4-9b15-fbfcd39caf15
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_shop_03
+  module:
+    - block_visibility_groups
+    - hsblock
+    - simplenews
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'Stay informed - subscribe to our newsletter.'
+    block_title_style: block-title-1
+    block_title_align: block-title-center
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: 100px
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: '#fcfcfc'
+    block_bg_image_path: /themes/martis/assets/images/bg/bg4.jpg
+    block_bg_repeat: ''
+    block_bg_position: 'center center'
+    block_bg_size: cover
+    block_parallax_bg: parallax-bg
+id: newsletter_subscription_h3
+theme: martis
+region: content_wide
+weight: -65
+provider: null
+plugin: simplenews_subscription_block
+settings:
+  id: simplenews_subscription_block
+  label: 'Sign up Newsletter'
+  label_display: visible
+  provider: simplenews
+  newsletters: {  }
+  message: ''
+  unique_id: f9d9402b-f66a-4673-8904-aaaf7324c1f5
+  default_newsletters:
+    default: default
+  show_manage: true
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_shop_03

@@ -1,0 +1,31 @@
+uuid: 5ce3f9ce-6795-4da4-9f23-2cd2daf0a621
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_ticket.se_ti_status_ref
+    - taxonomy.vocabulary.se_ticket_status
+  module:
+    - se_ticket
+_core:
+  default_config_hash: eONGlBOdoQ5oYr0BdoIK9zzjkh0XgZk-t5rKaQSd61k
+id: se_ticket.se_ticket.se_ti_status_ref
+field_name: se_ti_status_ref
+entity_type: se_ticket
+bundle: se_ticket
+label: 'Ticket status'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      se_ticket_status: se_ticket_status
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

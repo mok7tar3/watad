@@ -1,0 +1,18 @@
+uuid: b00ece89-3212-4d14-bd64-289ede00640b
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.reviews
+id: comment.reviews.subject
+field_name: subject
+entity_type: comment
+bundle: reviews
+label: Subject
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,51 @@
+uuid: 71981dd1-2a80-4b5e-b93b-d53a32d73ed9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.about
+    - views.view.testimonial
+  module:
+    - block_visibility_groups
+    - hsblock
+    - views
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'Trusted by great businesses'
+    block_title_style: block-title-2
+    block_title_align: block-title-center
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: views_block__testimonial_testimonial_carousel
+theme: martis
+region: content_wide
+weight: -48
+provider: null
+plugin: 'views_block:testimonial-testimonial_carousel'
+settings:
+  id: 'views_block:testimonial-testimonial_carousel'
+  label: 'What they are saying about us'
+  label_display: visible
+  provider: views
+  views_label: 'What they are saying about us'
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: about

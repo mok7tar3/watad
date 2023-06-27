@@ -1,0 +1,25 @@
+uuid: 22ec4e09-d3cd-48c4-b90d-05ebd0276ef2
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_timekeeping
+    - field.storage.comment.se_tk_billable
+_core:
+  default_config_hash: 2SHwjW9KfddyWRlz1gq3KQ7g-bS-kphEcd7WjzOosY8
+id: comment.se_timekeeping.se_tk_billable
+field_name: se_tk_billable
+entity_type: comment
+bundle: se_timekeeping
+label: Billable
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

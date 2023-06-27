@@ -1,0 +1,10 @@
+uuid: ac508a25-245a-4ee2-953f-bd696b85daf2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Cbj2FgcQ-1vH3tTfpfLNIUv26xqsC8CFC_0QCXEJzdw
+name: 'Sale category'
+vid: se_sale_category
+description: 'Sale category'
+weight: 0

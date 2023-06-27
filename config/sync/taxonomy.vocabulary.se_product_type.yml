@@ -1,0 +1,10 @@
+uuid: 3317c54e-037a-494c-bb78-88c76ee00275
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: HcCSeHiQiQvf0ivB2-Jaub3zuaD4flUeAi6HvoBTdCA
+name: 'Product type'
+vid: se_product_type
+description: 'Product type taxonomy'
+weight: 0

@@ -1,0 +1,29 @@
+uuid: 6c1291b4-7c64-42c4-8db0-8fd4c1f07b6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.basic_product
+    - field.storage.commerce_product.field_product_brand
+    - taxonomy.vocabulary.brand
+id: commerce_product.basic_product.field_product_brand
+field_name: field_product_brand
+entity_type: commerce_product
+bundle: basic_product
+label: Brand
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      brand: brand
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

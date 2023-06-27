@@ -1,0 +1,22 @@
+uuid: 229a76b2-ccb9-4110-b228-8c6d3c2c8e6c
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_contact
+    - taxonomy
+_core:
+  default_config_hash: Nxg_iN7bvxprIPuUHZXpKzLWeoWz3LCa1-gR_b5ha2o
+id: se_contact.se_co_type_ref
+field_name: se_co_type_ref
+entity_type: se_contact
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,29 @@
+uuid: 3849bc3b-f11b-4c77-8e87-26e0e952c8ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_layout
+    - layout_discovery
+    - simplenews
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+_core:
+  default_config_hash: pxNnkOchZljVErGC7uuVjmPpbp0Wy2CiK-pllIxNLK0
+id: simplenews_subscriber.simplenews_subscriber.default
+targetEntityType: simplenews_subscriber
+bundle: simplenews_subscriber
+mode: default
+content:
+  mail:
+    type: email_default
+    weight: 5
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  uid: true

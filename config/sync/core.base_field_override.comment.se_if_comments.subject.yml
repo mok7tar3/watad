@@ -1,0 +1,18 @@
+uuid: b80ef862-6693-40a9-9181-554aba56b4ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_if_comments
+id: comment.se_if_comments.subject
+field_name: subject
+entity_type: comment
+bundle: se_if_comments
+label: Subject
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

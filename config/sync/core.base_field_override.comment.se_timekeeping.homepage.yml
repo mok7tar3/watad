@@ -1,0 +1,18 @@
+uuid: 6e85a70f-0d59-4be4-a4ef-a34637ab9b3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_timekeeping
+id: comment.se_timekeeping.homepage
+field_name: homepage
+entity_type: comment
+bundle: se_timekeeping
+label: Homepage
+description: 'The comment author''s home page address.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: uri

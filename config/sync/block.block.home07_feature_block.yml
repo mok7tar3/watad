@@ -1,0 +1,53 @@
+uuid: b43ff743-c967-480a-9752-35a56cd5120f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_corporate_03
+  content:
+    - 'block_content:feature_block:c97022a0-d97e-4ed8-acef-4ffc038979c6'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'Our core responbility'
+    block_title_style: block-title-2
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: 70px
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: '#fcfcfc'
+    block_bg_image_path: /themes/martis/assets/images/bg/bg2.png
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: home07_feature_block
+theme: martis
+region: content_wide
+weight: -38
+provider: null
+plugin: 'block_content:c97022a0-d97e-4ed8-acef-4ffc038979c6'
+settings:
+  id: 'block_content:c97022a0-d97e-4ed8-acef-4ffc038979c6'
+  label: 'Connecting businessess with the right customers is our most important responsibility.'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_corporate_03

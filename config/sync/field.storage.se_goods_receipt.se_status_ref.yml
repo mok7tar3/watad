@@ -1,0 +1,22 @@
+uuid: ac476081-ca49-41e0-8d21-eaefffbd7a08
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_goods_receipt
+    - taxonomy
+_core:
+  default_config_hash: fVUVhqDMQ5bR_kdhFKTe8qHmG_gwvaV0cpGo1o5oxxU
+id: se_goods_receipt.se_status_ref
+field_name: se_status_ref
+entity_type: se_goods_receipt
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

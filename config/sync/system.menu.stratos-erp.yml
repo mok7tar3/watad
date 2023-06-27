@@ -1,0 +1,10 @@
+uuid: df86a56e-85cf-47ea-bbc4-98c59f505ca7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 18QbBwHSkz5Sl1lwfZpHQ8BOp5vpzJBueJ4n9bKhYHU
+id: stratos-erp
+label: StratosERP
+description: ''
+locked: false

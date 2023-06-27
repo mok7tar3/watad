@@ -1,0 +1,32 @@
+uuid: 9691368f-1530-48db-9752-dd22fe10e4b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_quote.se_status_ref
+    - taxonomy.vocabulary.se_status
+  module:
+    - se_quote
+_core:
+  default_config_hash: s9abTibXik5biRLIWy-0IoyO9WzBmhIcW_dMmuSLxHY
+id: se_quote.se_quote.se_status_ref
+field_name: se_status_ref
+entity_type: se_quote
+bundle: se_quote
+label: Status
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      se_status: se_status
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

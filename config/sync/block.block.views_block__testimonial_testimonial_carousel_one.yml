@@ -1,0 +1,51 @@
+uuid: c1701498-2852-45a5-9349-e6ae1e66a900
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_shop_02
+    - views.view.testimonial
+  module:
+    - block_visibility_groups
+    - hsblock
+    - views
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: p-4
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: text-light
+    block_bg_color: '#412b66'
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: views_block__testimonial_testimonial_carousel_one
+theme: martis
+region: content_widget_third
+weight: -18
+provider: null
+plugin: 'views_block:testimonial-testimonial_carousel_one'
+settings:
+  id: 'views_block:testimonial-testimonial_carousel_one'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_shop_02

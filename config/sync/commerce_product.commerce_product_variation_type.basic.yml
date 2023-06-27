@@ -1,0 +1,11 @@
+uuid: 661c9321-c641-45a6-b877-1f694a2aa709
+langcode: en
+status: true
+dependencies: {  }
+id: basic
+label: Basic
+traits:
+  - purchasable_entity_shippable
+locked: false
+orderItemType: physical_product_variation
+generateTitle: true

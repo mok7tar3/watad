@@ -1,0 +1,22 @@
+uuid: 4ad612bb-6172-4258-b75b-022205a16ffd
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_business
+    - se_quote
+_core:
+  default_config_hash: IrJq7vkXTT8fYvgYnqMK4nJ0sxg0ni8oTlRGZTp8w9A
+id: se_quote.se_bu_ref
+field_name: se_bu_ref
+entity_type: se_quote
+type: entity_reference
+settings:
+  target_type: se_business
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

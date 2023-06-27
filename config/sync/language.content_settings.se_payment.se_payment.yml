@@ -1,0 +1,17 @@
+uuid: 90ce10ec-f6ec-4a0b-955c-d772ae966a4f
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - se_payment
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_payment.se_payment
+target_entity_type_id: se_payment
+target_bundle: se_payment
+default_langcode: site_default
+language_alterable: false

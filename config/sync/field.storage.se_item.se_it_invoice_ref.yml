@@ -1,0 +1,22 @@
+uuid: c52bd27c-a5d4-4a09-897d-088325221f3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_invoice
+    - se_item
+_core:
+  default_config_hash: ab7pkzH3S_uYONurFOanRPM0bZhVQrOZtuR3DEj0rm8
+id: se_item.se_it_invoice_ref
+field_name: se_it_invoice_ref
+entity_type: se_item
+type: entity_reference
+settings:
+  target_type: se_invoice
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

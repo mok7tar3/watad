@@ -1,0 +1,10 @@
+uuid: 83aff7f4-5449-4597-8241-72e8fcd2d864
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6CxRvVmQVh3MnO3UvV02YLy8Pnt2Bir4SIAn29t35c0
+id: se_domain_name
+label: 'Domain name'
+locked: null
+pattern: null

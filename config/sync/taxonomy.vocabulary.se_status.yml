@@ -1,0 +1,10 @@
+uuid: a63a54c3-269c-4e11-9fa5-9e2502b2b01d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4X6jZWtracEdTgZi4DxmcKzqIoELvJ3vUU29nuoTdlM
+name: Status
+vid: se_status
+description: 'Status taxonomy'
+weight: 0

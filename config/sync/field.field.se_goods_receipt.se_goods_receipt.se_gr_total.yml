@@ -1,0 +1,27 @@
+uuid: 0cf77074-8d68-4ac4-b70a-e5f37af7b34a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_goods_receipt.se_gr_total
+  module:
+    - se_accounting
+    - se_goods_receipt
+_core:
+  default_config_hash: V1eKQQxpVc2L6M9yUiTXuwYqB5Id66L5s61sE_9nyyE
+id: se_goods_receipt.se_goods_receipt.se_gr_total
+field_name: se_gr_total
+entity_type: se_goods_receipt
+bundle: se_goods_receipt
+label: Total
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: se_currency

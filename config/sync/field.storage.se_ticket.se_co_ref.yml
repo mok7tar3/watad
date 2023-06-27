@@ -1,0 +1,22 @@
+uuid: 9dd011f6-7128-4454-83c9-1b55e9c4bec8
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_contact
+    - se_ticket
+_core:
+  default_config_hash: our6l_9Yy25uP8UJ2x65jPGav1UtMgy-2_nmAlPBUBw
+id: se_ticket.se_co_ref
+field_name: se_co_ref
+entity_type: se_ticket
+type: entity_reference
+settings:
+  target_type: se_contact
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

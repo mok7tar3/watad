@@ -1,0 +1,22 @@
+uuid: 8e5d7e3c-39d4-4de5-a192-843231f753d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_timekeeping
+id: comment.se_timekeeping.status
+field_name: status
+entity_type: comment
+bundle: se_timekeeping
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultStatus'
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,29 @@
+uuid: 3335abd6-f014-4f5a-add9-1b2168445d91
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.basic_product
+    - field.storage.commerce_product.field_special_category
+    - taxonomy.vocabulary.special_category
+id: commerce_product.basic_product.field_special_category
+field_name: field_special_category
+entity_type: commerce_product
+bundle: basic_product
+label: 'Special Category'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      special_category: special_category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

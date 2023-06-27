@@ -1,0 +1,47 @@
+uuid: fdd2eee1-cd9d-4d41-8e84-3e12bae348bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_timekeeping
+    - core.entity_view_mode.comment.hide_comments
+    - field.field.comment.se_timekeeping.se_bu_ref
+    - field.field.comment.se_timekeeping.se_tk_amount
+    - field.field.comment.se_timekeeping.se_tk_billable
+    - field.field.comment.se_timekeeping.se_tk_billed
+    - field.field.comment.se_timekeeping.se_tk_comment
+    - field.field.comment.se_timekeeping.se_tk_date
+    - field.field.comment.se_timekeeping.se_tk_invoice_ref
+    - field.field.comment.se_timekeeping.se_tk_item
+    - field.field.comment.se_timekeeping.se_tk_review
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+_core:
+  default_config_hash: ciD1jyRxgf6x5gC8FbLIJUNy6YWn2DUtDvliz6B3mZk
+id: comment.se_timekeeping.hide_comments
+targetEntityType: comment
+bundle: se_timekeeping
+mode: hide_comments
+content: {  }
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true
+  links: true
+  se_bu_ref: true
+  se_tk_amount: true
+  se_tk_billable: true
+  se_tk_billed: true
+  se_tk_comment: true
+  se_tk_date: true
+  se_tk_invoice_ref: true
+  se_tk_item: true
+  se_tk_review: true
+  search_api_excerpt: true

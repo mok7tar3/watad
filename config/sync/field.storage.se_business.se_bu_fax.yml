@@ -1,0 +1,21 @@
+uuid: 30588af0-2fd5-47fd-b2f3-1d4a74e346d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_business
+    - telephone
+_core:
+  default_config_hash: mRAhOlkT8nhfTBK95JrpPIimQ9mey5yuowrxN93F1n8
+id: se_business.se_bu_fax
+field_name: se_bu_fax
+entity_type: se_business
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

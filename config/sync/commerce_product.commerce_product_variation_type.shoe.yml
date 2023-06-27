@@ -1,0 +1,11 @@
+uuid: ce9f518f-9fa1-44c8-af10-ac473f1949fc
+langcode: en
+status: true
+dependencies: {  }
+id: shoe
+label: Shoe
+traits:
+  - purchasable_entity_shippable
+locked: false
+orderItemType: physical_product_variation
+generateTitle: true

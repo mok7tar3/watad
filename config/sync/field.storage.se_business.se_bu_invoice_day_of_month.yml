@@ -1,0 +1,22 @@
+uuid: 2eb87e05-47b3-41d2-b561-d278ac00b08a
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_business
+_core:
+  default_config_hash: JASHuRTcCGUR0gnvz_9i735rcm3gtYsyPN7VLShYtrQ
+id: se_business.se_bu_invoice_day_of_month
+field_name: se_bu_invoice_day_of_month
+entity_type: se_business
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

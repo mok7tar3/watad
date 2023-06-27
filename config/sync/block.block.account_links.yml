@@ -1,0 +1,57 @@
+uuid: 98ae8494-9286-4f8c-ac19-cf29d1aa5d60
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:50758222-d7f2-4b1d-9a23-45b33cb9e302'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+    - system
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: account_links
+theme: martis
+region: footer_fifth
+weight: -18
+provider: null
+plugin: 'block_content:50758222-d7f2-4b1d-9a23-45b33cb9e302'
+settings:
+  id: 'block_content:50758222-d7f2-4b1d-9a23-45b33cb9e302'
+  label: Account
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/personal-01\r\n/personal-02"

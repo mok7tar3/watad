@@ -1,0 +1,25 @@
+uuid: a8079f15-254d-4b2a-9a96-70743e6d26b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_item.se_it_lost
+    - se_item.se_item_type.se_stock
+_core:
+  default_config_hash: lez-vECUmP3YqUsEJnNM90Z_en-iRcZi1ea7MR_KAhM
+id: se_item.se_stock.se_it_lost
+field_name: se_it_lost
+entity_type: se_item
+bundle: se_stock
+label: Lost
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

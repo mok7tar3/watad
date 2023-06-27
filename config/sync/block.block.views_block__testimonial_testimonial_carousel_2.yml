@@ -1,0 +1,51 @@
+uuid: 84d1166a-b7ca-4e46-a97d-f05e0fb07c97
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_corporate_03
+    - views.view.testimonial
+  module:
+    - block_visibility_groups
+    - hsblock
+    - views
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: TESTIMONIALS
+    block_title_style: block-title-2
+    block_title_align: block-title-center
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: title-light
+    block_bg_color: '#444444'
+    block_bg_image_path: /themes/martis/assets/images/bg/bg2.jpg
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: cover
+    block_parallax_bg: parallax-bg
+id: views_block__testimonial_testimonial_carousel_2
+theme: martis
+region: content_wide
+weight: -35
+provider: null
+plugin: 'views_block:testimonial-testimonial_carousel'
+settings:
+  id: 'views_block:testimonial-testimonial_carousel'
+  label: 'Should in case you''ve not heard, these are what people are saying about us.'
+  label_display: visible
+  provider: views
+  views_label: 'Should in case you''ve not heard, these are what people are saying about us.'
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_corporate_03

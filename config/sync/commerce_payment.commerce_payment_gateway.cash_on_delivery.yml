@@ -1,0 +1,18 @@
+uuid: f592c782-4842-420e-a81f-4e8fae1d6b95
+langcode: en
+status: true
+dependencies: {  }
+id: cash_on_delivery
+label: 'Cash on delivery'
+weight: -9
+plugin: manual
+configuration:
+  display_label: 'Cash on delivery'
+  mode: n/a
+  payment_method_types:
+    - credit_card
+  instructions:
+    value: 'You will pay when receiving package.'
+    format: plain_text
+conditions: {  }
+conditionOperator: AND

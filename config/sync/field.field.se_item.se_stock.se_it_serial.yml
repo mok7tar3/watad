@@ -1,0 +1,21 @@
+uuid: 0159c691-861e-4d5b-a4cd-41fc1ac715d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_item.se_it_serial
+    - se_item.se_item_type.se_stock
+_core:
+  default_config_hash: x3M1uFE8kHd1nYwDIsAPGgFri8YeYM9lIJxzALjOwk4
+id: se_item.se_stock.se_it_serial
+field_name: se_it_serial
+entity_type: se_item
+bundle: se_stock
+label: Serial
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

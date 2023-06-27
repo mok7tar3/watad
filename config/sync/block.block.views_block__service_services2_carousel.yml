@@ -1,0 +1,51 @@
+uuid: c534ca6c-0439-4d4a-ab9d-426fea4a0dfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_corporate_03
+    - views.view.service
+  module:
+    - block_visibility_groups
+    - hsblock
+    - views
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'Our Exceptional Services'
+    block_title_style: block-title-2
+    block_title_align: block-title-center
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: views_block__service_services2_carousel
+theme: martis
+region: content_wide
+weight: -37
+provider: null
+plugin: 'views_block:service-services2_carousel'
+settings:
+  id: 'views_block:service-services2_carousel'
+  label: 'We provide world class services that is timely and second to none. '
+  label_display: visible
+  provider: views
+  views_label: 'We provide world class services that is timely and second to none. '
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_corporate_03

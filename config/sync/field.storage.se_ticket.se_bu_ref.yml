@@ -1,0 +1,22 @@
+uuid: 058f1f90-cebe-4a5a-939f-0e0e26f2bf23
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_business
+    - se_ticket
+_core:
+  default_config_hash: DA7MCj7GE5RVrMSdy4bTqFCn_MFb8GQDQqCOT0dxIHI
+id: se_ticket.se_bu_ref
+field_name: se_bu_ref
+entity_type: se_ticket
+type: entity_reference
+settings:
+  target_type: se_business
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

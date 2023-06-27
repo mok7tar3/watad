@@ -1,0 +1,22 @@
+uuid: 0bc5512c-8a81-4af7-ae33-f32398760cf9
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - se_business
+_core:
+  default_config_hash: AUmQrCRNVGNPr8iOnuqX9L-3AKObu6TCVE7oLUd8Iv4
+id: comment.se_bu_ref
+field_name: se_bu_ref
+entity_type: comment
+type: entity_reference
+settings:
+  target_type: se_business
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

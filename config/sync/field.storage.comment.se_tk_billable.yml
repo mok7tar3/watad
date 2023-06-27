@@ -1,0 +1,20 @@
+uuid: bd983a44-2d6b-41b6-9312-785120c91e12
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: UP53YEmWCt5nlN-cKNIiLEGx-MottpmRaQO9Es_LD2M
+id: comment.se_tk_billable
+field_name: se_tk_billable
+entity_type: comment
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

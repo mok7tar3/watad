@@ -1,0 +1,23 @@
+uuid: 2aef2e92-fe2d-43e9-881e-909081c8f01a
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_invoice
+    - se_payment
+    - se_payment_line
+_core:
+  default_config_hash: OAX1D8N09cVPXPNfhWZzwaqitc5UZFi-8eGenHO1e-M
+id: se_payment.se_pa_lines
+field_name: se_pa_lines
+entity_type: se_payment
+type: se_payment_line
+settings:
+  target_type: se_invoice
+module: se_payment_line
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

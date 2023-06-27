@@ -1,0 +1,18 @@
+uuid: 76abfb61-0d3e-4b1a-9f81-1f326ddd91d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_block
+id: block_content.banner_block.info
+field_name: info
+entity_type: block_content
+bundle: banner_block
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

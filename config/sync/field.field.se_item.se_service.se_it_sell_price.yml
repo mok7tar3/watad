@@ -1,0 +1,27 @@
+uuid: 0352adbf-6b92-497f-8cad-e980ef810745
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_item.se_it_sell_price
+    - se_item.se_item_type.se_service
+  module:
+    - se_accounting
+_core:
+  default_config_hash: 4Hpbx24GrOyWFFlviYYUU66yzY5wtLuzzu50WWB9RhY
+id: se_item.se_service.se_it_sell_price
+field_name: se_it_sell_price
+entity_type: se_item
+bundle: se_service
+label: Price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: se_currency

@@ -1,0 +1,22 @@
+uuid: 0d36689e-1439-4a2d-99ee-0b1e985a701b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_business.se_bu_state
+  module:
+    - se_business
+_core:
+  default_config_hash: MS7HsJGTOZCTfYhM2_vGRptjgwLSod-a89XOV4PlYHg
+id: se_business.se_business.se_bu_state
+field_name: se_bu_state
+entity_type: se_business
+bundle: se_business
+label: State
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

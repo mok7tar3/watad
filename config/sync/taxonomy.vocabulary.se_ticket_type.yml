@@ -1,0 +1,10 @@
+uuid: e7d871db-8ad0-45ed-b7c7-6b995426f884
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3s2mDBO3zSOca8wWqWg3TnFsJoCxia4wAtsyqKKityw
+name: 'Ticket type'
+vid: se_ticket_type
+description: 'Ticket type taxonomy'
+weight: 0

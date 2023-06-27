@@ -1,0 +1,22 @@
+uuid: 5593d7bd-14f5-44d5-9905-6c109ebd014b
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_business
+_core:
+  default_config_hash: 2flopZDHLMKZQK_ncM-gKZDFjBT5520EhsF7Vtsps7E
+id: se_business.se_bu_terms
+field_name: se_bu_terms
+entity_type: se_business
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

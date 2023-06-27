@@ -1,0 +1,53 @@
+uuid: 75e1802e-0585-4a15-9510-d5cf05f41e3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.service_sidebar
+  content:
+    - 'block_content:basic:5569e28f-5d35-43cb-af2b-9b68a83908da'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: colored-bg
+    block_padding_top: 30px
+    block_padding_right: 30px
+    block_padding_bottom: 30px
+    block_padding_left: 30px
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: work_with_you
+theme: martis
+region: sidebar_second
+weight: -67
+provider: null
+plugin: 'block_content:5569e28f-5d35-43cb-af2b-9b68a83908da'
+settings:
+  id: 'block_content:5569e28f-5d35-43cb-af2b-9b68a83908da'
+  label: 'Can we work with you?'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: service_sidebar

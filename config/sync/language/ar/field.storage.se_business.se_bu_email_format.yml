@@ -1,0 +1,8 @@
+settings:
+  allowed_values:
+    -
+      label: 'نص عادي'
+    -
+      label: 'نص منصق بصيغة HTML'
+    -
+      label: 'بريد PDF'

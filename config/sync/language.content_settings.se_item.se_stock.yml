@@ -1,0 +1,18 @@
+uuid: cd4b71af-ccb8-47ce-9d78-42f55e58db5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_item.se_item_type.se_stock
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_item.se_stock
+target_entity_type_id: se_item
+target_bundle: se_stock
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,22 @@
+uuid: 5e1db629-acc6-42d9-b8e3-d60ba3f66db1
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - datetime
+_core:
+  default_config_hash: La3oQtdcS-yLCbBHPIqN1l7q-bwD7jVQdkzk9eQRs1Y
+id: comment.se_tk_date
+field_name: se_tk_date
+entity_type: comment
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,54 @@
+uuid: aab97632-8b67-4a83-a490-e9154864a624
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_shop_01
+  module:
+    - block_visibility_groups
+    - hsblock
+    - simplenews
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'Don''t miss out on great deals!'
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: colored-bg
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: newsletter_subscription
+theme: martis
+region: content_wide
+weight: -66
+provider: null
+plugin: simplenews_subscription_block
+settings:
+  id: simplenews_subscription_block
+  label: 'Sign up Newsletter'
+  label_display: visible
+  provider: simplenews
+  newsletters: {  }
+  message: 'Stay informed - subscribe to our newsletter.'
+  unique_id: 9712d147-2251-4cc0-b05f-944bbdb328c5
+  default_newsletters:
+    default: default
+  show_manage: true
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_shop_01

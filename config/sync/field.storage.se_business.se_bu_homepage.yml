@@ -1,0 +1,21 @@
+uuid: 99989bdb-57bc-489a-bedf-6f75d790a890
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - se_business
+_core:
+  default_config_hash: n25tZRvyUysRVoKEUKj4FpCtsQwCX53Pz9qWBDXMvDs
+id: se_business.se_bu_homepage
+field_name: se_bu_homepage
+entity_type: se_business
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

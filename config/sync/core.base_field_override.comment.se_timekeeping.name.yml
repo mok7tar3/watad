@@ -1,0 +1,20 @@
+uuid: 05e49967-34f1-49d8-9f6f-bd9299459e8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_timekeeping
+id: comment.se_timekeeping.name
+field_name: name
+entity_type: comment
+bundle: se_timekeeping
+label: Name
+description: 'The comment author''s name.'
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

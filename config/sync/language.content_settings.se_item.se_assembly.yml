@@ -1,0 +1,18 @@
+uuid: f5959ccd-aa03-4a93-ac36-45d9e60a2b27
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_item.se_item_type.se_assembly
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_item.se_assembly
+target_entity_type_id: se_item
+target_bundle: se_assembly
+default_langcode: site_default
+language_alterable: false

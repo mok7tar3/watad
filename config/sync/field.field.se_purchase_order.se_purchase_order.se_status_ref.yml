@@ -1,0 +1,32 @@
+uuid: 80fa5de0-e31d-4194-9615-20dae2022b16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_purchase_order.se_status_ref
+    - taxonomy.vocabulary.se_status
+  module:
+    - se_purchase_order
+_core:
+  default_config_hash: vKfvsrIxkOF5TAYDfn6toNyhPt9888x3U8KKfVB07Ps
+id: se_purchase_order.se_purchase_order.se_status_ref
+field_name: se_status_ref
+entity_type: se_purchase_order
+bundle: se_purchase_order
+label: Status
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      se_status: se_status
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

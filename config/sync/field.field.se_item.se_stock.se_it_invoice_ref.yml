@@ -1,0 +1,29 @@
+uuid: cda665a8-833d-446e-94e6-78af1f4c77b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_item.se_it_invoice_ref
+    - se_item.se_item_type.se_stock
+_core:
+  default_config_hash: 7YDV2pvsOnRGG4w4KiTdNeoy5wsyDDyF2cq21sl0qrM
+id: se_item.se_stock.se_it_invoice_ref
+field_name: se_it_invoice_ref
+entity_type: se_item
+bundle: se_stock
+label: Invoice
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:se_invoice'
+  handler_settings:
+    target_bundles:
+      se_invoice: se_invoice
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

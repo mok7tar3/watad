@@ -1,0 +1,29 @@
+uuid: 2965a537-2cf8-433d-bd71-19e6bbcf73dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_ticket.se_attachments
+  module:
+    - file
+    - se_ticket
+_core:
+  default_config_hash: rIOAOlMuepRjXT0KjiNpCq6OK-64961jcy_Co0kbHRs
+id: se_ticket.se_ticket.se_attachments
+field_name: se_attachments
+entity_type: se_ticket
+bundle: se_ticket
+label: Attachments
+description: 'Container for legacy files'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'jpg jpeg gif png txt html doc xls pdf ppt pps odt ods odp docx xlsx zip dll tar.gz tgz exe log msg'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

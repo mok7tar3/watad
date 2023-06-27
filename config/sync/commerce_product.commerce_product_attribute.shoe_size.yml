@@ -1,0 +1,7 @@
+uuid: ac0d1de0-7379-4121-8e50-d6e0c499b31c
+langcode: en
+status: true
+dependencies: {  }
+id: shoe_size
+label: 'Shoe Size'
+elementType: commerce_product_rendered_attribute

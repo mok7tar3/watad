@@ -1,0 +1,20 @@
+uuid: ac4af126-b3d8-48ff-b750-dd0cd2004839
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_item.se_item_type.se_service
+id: se_item.se_service.user_id
+field_name: user_id
+entity_type: se_item
+bundle: se_service
+label: 'Authored by'
+description: 'The user ID of author of the Item entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

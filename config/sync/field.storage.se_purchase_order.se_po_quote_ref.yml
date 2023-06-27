@@ -1,0 +1,21 @@
+uuid: 98dd2b13-6d90-4c37-a7c9-8cca31f8c4c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_purchase_order
+_core:
+  default_config_hash: raTBhveGwroBP1syHEU5fU2EVIVGwlHILpL35C41DAI
+id: se_purchase_order.se_po_quote_ref
+field_name: se_po_quote_ref
+entity_type: se_purchase_order
+type: entity_reference
+settings:
+  target_type: se_purchase_order
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

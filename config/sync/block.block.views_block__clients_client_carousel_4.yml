@@ -1,0 +1,56 @@
+uuid: d38b4d04-d774-40ed-8acc-e411077808b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.clients
+  module:
+    - block_visibility_groups
+    - hsblock
+    - system
+    - views
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: pt-0
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: views_block__clients_client_carousel_4
+theme: martis
+region: content_wide
+weight: -16
+provider: null
+plugin: 'views_block:clients-client_carousel'
+settings:
+  id: 'views_block:clients-client_carousel'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/services\r\n/services-02"

@@ -1,0 +1,21 @@
+uuid: 8a83f985-6539-4b9c-97bb-e5adb3f7b488
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_placement
+    - node.type.banner
+  module:
+    - options
+id: node.banner.field_content_placement
+field_name: field_content_placement
+entity_type: node
+bundle: banner
+label: 'Content Placement'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

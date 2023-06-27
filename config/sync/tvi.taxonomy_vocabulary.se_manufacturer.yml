@@ -1,0 +1,7 @@
+_core:
+  default_config_hash: RGohgghjJI-c5fqECw8NhnI_WAO9gT1pydmxKx3j-Rk
+enable_override: 1
+view: item_by_manufacturer
+view_display: item_by_manufacturer
+inherit_settings: 1
+pass_arguments: 0

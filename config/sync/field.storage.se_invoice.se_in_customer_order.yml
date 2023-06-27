@@ -1,0 +1,23 @@
+uuid: 40082bf3-e80e-431d-97a1-07707e2a98d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_invoice
+_core:
+  default_config_hash: kiQPVeGfYVJ0uP0msBQjWZTbG40MMBO6Fh-vDOtmjyg
+id: se_invoice.se_in_customer_order
+field_name: se_in_customer_order
+entity_type: se_invoice
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

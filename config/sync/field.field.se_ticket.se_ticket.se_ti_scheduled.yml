@@ -1,0 +1,28 @@
+uuid: 22217399-fd4c-435f-b06d-f2c927adcbf9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_ticket.se_ti_scheduled
+  module:
+    - datetime_range
+    - se_ticket
+_core:
+  default_config_hash: ETwtm2TfbMT3IpNxkptOroYFKN63rXUVSGooHOWi9Yw
+id: se_ticket.se_ticket.se_ti_scheduled
+field_name: se_ti_scheduled
+entity_type: se_ticket
+bundle: se_ticket
+label: Scheduled
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    default_date_type: relative
+    default_date: '+1 day'
+    default_end_date_type: relative
+    default_end_date: '+1 day 30 minutes'
+default_value_callback: ''
+settings: {  }
+field_type: daterange

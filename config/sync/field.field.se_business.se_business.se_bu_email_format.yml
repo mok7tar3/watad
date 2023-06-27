@@ -1,0 +1,25 @@
+uuid: 86bcdf23-2cb1-4ce3-93a6-bf325e8fa37b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_business.se_bu_email_format
+  module:
+    - options
+    - se_business
+_core:
+  default_config_hash: nmRmHVbWDkvMDL1CfvmGCIJ8jGV-CNNGtmiu8z3cs2U
+id: se_business.se_business.se_bu_email_format
+field_name: se_bu_email_format
+entity_type: se_business
+bundle: se_business
+label: 'Email format'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '2'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

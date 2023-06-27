@@ -1,0 +1,23 @@
+uuid: 5c054a9e-50bc-4d65-8dfa-be370f9912eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_contact.se_co_phone
+  module:
+    - se_contact
+    - telephone
+_core:
+  default_config_hash: PGiI8feqO12kErftVqe48gP_8AhNVxOD0XMhHYIjNkc
+id: se_contact.se_contact.se_co_phone
+field_name: se_co_phone
+entity_type: se_contact
+bundle: se_contact
+label: Phone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

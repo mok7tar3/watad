@@ -1,0 +1,53 @@
+uuid: 49a697b6-93e2-4bdd-b024-08af7a110f61
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.about
+  content:
+    - 'block_content:basic:5eae88d2-6c7b-4f14-87a0-68ddeb1be6cb'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: fact_counter_about
+theme: martis
+region: content_wide
+weight: -58
+provider: null
+plugin: 'block_content:5eae88d2-6c7b-4f14-87a0-68ddeb1be6cb'
+settings:
+  id: 'block_content:5eae88d2-6c7b-4f14-87a0-68ddeb1be6cb'
+  label: 'Leading in all areas and beyond'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: about

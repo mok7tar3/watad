@@ -1,0 +1,20 @@
+uuid: bb58e9dc-a2f8-48ef-9569-9f292b4e4ff5
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_goods_receipt
+id: se_goods_receipt.se_goods_receipt.user_id
+field_name: user_id
+entity_type: se_goods_receipt
+bundle: se_goods_receipt
+label: 'Authored by'
+description: 'The user ID of author of the Goods Receipt entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

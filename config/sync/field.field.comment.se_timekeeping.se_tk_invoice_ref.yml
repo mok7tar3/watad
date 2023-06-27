@@ -1,0 +1,28 @@
+uuid: ae17ae50-5306-4305-93e0-ba7a79870eb1
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_timekeeping
+    - field.storage.comment.se_tk_invoice_ref
+_core:
+  default_config_hash: gSWb6l00XpHGqv-hrXHu3lvC-tmnYtpnRyL60lx5qxc
+id: comment.se_timekeeping.se_tk_invoice_ref
+field_name: se_tk_invoice_ref
+entity_type: comment
+bundle: se_timekeeping
+label: Invoice
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:se_invoice'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+field_type: entity_reference

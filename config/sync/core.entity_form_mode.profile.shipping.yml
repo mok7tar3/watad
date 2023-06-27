@@ -1,0 +1,13 @@
+uuid: 934e34d3-8c6f-41d5-b1f8-33910bc56b00
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+  enforced:
+    module:
+      - commerce_shipping
+id: profile.shipping
+label: Shipping
+targetEntityType: profile
+cache: true

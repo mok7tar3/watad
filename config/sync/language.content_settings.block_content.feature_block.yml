@@ -1,0 +1,18 @@
+uuid: f6144780-874c-4417-9927-39749235f4c3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.feature_block
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.feature_block
+target_entity_type_id: block_content
+target_bundle: feature_block
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,22 @@
+uuid: 4fc095c5-2592-432e-bf29-72d7a38caf48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_business.se_bu_postal_suburb
+  module:
+    - se_business
+_core:
+  default_config_hash: kUecZYgVEo8zQCMl8HXpJ1_gn8Yz2-I01wqiObnFobw
+id: se_business.se_business.se_bu_postal_suburb
+field_name: se_bu_postal_suburb
+entity_type: se_business
+bundle: se_business
+label: 'Postal Suburb'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

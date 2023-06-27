@@ -1,0 +1,10 @@
+uuid: 710b9fa9-aee8-476c-bf40-d83f70fabe8f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7u0Gp199z4ACMalfJqJ4Xt2JoKtP4O8_BRXDAaS_l7A
+id: se_service
+label: Service
+locked: null
+pattern: null

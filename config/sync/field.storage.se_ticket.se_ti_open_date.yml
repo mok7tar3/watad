@@ -1,0 +1,20 @@
+uuid: 5343ab45-b184-46c7-8005-6b9299654edc
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_ticket
+_core:
+  default_config_hash: Wagv7nt84xrWbLB0kYGghWaw7Gb50KtvaMLYUOHd0Qg
+id: se_ticket.se_ti_open_date
+field_name: se_ti_open_date
+entity_type: se_ticket
+type: timestamp
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

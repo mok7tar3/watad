@@ -1,0 +1,51 @@
+uuid: f8f1c578-1f75-478f-a38a-dae1b1b04b77
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_personal_02
+    - views.view.service
+  module:
+    - block_visibility_groups
+    - hsblock
+    - views
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: views_block__service_services2_carousel2
+theme: martis
+region: content_wide
+weight: -25
+provider: null
+plugin: 'views_block:service-services2_carousel2'
+settings:
+  id: 'views_block:service-services2_carousel2'
+  label: 'My areas of expertise are uniquely sourced.'
+  label_display: visible
+  provider: views
+  views_label: 'My areas of expertise are uniquely sourced.'
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_personal_02

@@ -1,0 +1,20 @@
+uuid: 378ad079-f14a-450e-895c-7e850da7b677
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_information.se_information_type.se_document
+id: se_information.se_document.user_id
+field_name: user_id
+entity_type: se_information
+bundle: se_document
+label: 'Authored by'
+description: 'The user ID of author of the Information entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

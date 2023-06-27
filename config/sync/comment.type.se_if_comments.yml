@@ -1,0 +1,10 @@
+uuid: 3b730253-c565-41ce-baf1-54fbdfdbc434
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: OGBCbCnvQxaBBkOIatFHQCjWMfZFoag2Z4yMdzo9ZiM
+id: se_if_comments
+label: 'Information comments'
+target_entity_type_id: se_information
+description: ''

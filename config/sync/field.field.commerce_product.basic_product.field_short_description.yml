@@ -1,0 +1,21 @@
+uuid: daf78945-6931-4e94-a744-d3ef75fdc08c
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.basic_product
+    - field.storage.commerce_product.field_short_description
+  module:
+    - text
+id: commerce_product.basic_product.field_short_description
+field_name: field_short_description
+entity_type: commerce_product
+bundle: basic_product
+label: 'Short Description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

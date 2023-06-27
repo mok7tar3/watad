@@ -1,0 +1,25 @@
+uuid: 4d063e15-b14f-44ce-b194-d5b62b4f288f
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+    - commerce_checkout
+    - commerce_shipping
+third_party_settings:
+  commerce_cart:
+    cart_block_view: commerce_cart_block
+    cart_form_view: commerce_cart_form
+  commerce_checkout:
+    checkout_flow: shipping
+  commerce_shipping:
+    shipment_type: default
+id: physical
+label: Physical
+traits: {  }
+locked: false
+workflow: order_fulfillment
+refresh_mode: customer
+refresh_frequency: 300
+sendReceipt: true
+receiptBcc: ''

@@ -1,0 +1,18 @@
+uuid: 913ac3da-5d0d-4887-856f-e985d09456e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_subscription.se_subscription_type.se_domain_name
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_subscription.se_domain_name
+target_entity_type_id: se_subscription
+target_bundle: se_domain_name
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,20 @@
+uuid: 8a6fbf50-d00a-4609-b771-dbdfaec666bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_payment
+id: se_payment.se_payment.user_id
+field_name: user_id
+entity_type: se_payment
+bundle: se_payment
+label: 'Authored by'
+description: 'The user ID of author of the Payment entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

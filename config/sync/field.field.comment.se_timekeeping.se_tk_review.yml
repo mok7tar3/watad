@@ -1,0 +1,25 @@
+uuid: 60dc8e83-bdc4-4fa7-9df1-1a5632b99960
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_timekeeping
+    - field.storage.comment.se_tk_review
+_core:
+  default_config_hash: dGZtmgCceuEki59nmj_VlxskWcINByGsiWqwo7mHNWM
+id: comment.se_timekeeping.se_tk_review
+field_name: se_tk_review
+entity_type: comment
+bundle: se_timekeeping
+label: Review
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

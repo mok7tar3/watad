@@ -1,0 +1,19 @@
+uuid: a2d3fe72-ddfb-4782-871b-114899caab5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_heading_text
+    - node.type.banner
+id: node.banner.field_heading_text
+field_name: field_heading_text
+entity_type: node
+bundle: banner
+label: 'Heading Text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

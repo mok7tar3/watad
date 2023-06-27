@@ -1,0 +1,57 @@
+uuid: d97c09b8-9bca-44ee-a26f-23eb39f1bb0a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:13d97d8d-a5d3-48bc-aba5-f1e273a3a1cb'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+    - system
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: support_links
+theme: martis
+region: footer_forth
+weight: -18
+provider: null
+plugin: 'block_content:13d97d8d-a5d3-48bc-aba5-f1e273a3a1cb'
+settings:
+  id: 'block_content:13d97d8d-a5d3-48bc-aba5-f1e273a3a1cb'
+  label: Support
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/personal-01\r\n/personal-02"

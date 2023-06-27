@@ -1,0 +1,22 @@
+uuid: 0fb51d10-954d-4cbb-b71d-1d44783b6b03
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_business
+    - se_contact
+_core:
+  default_config_hash: QtXpiscbGwQjbzBesK6FDtiUeUTuRmiHaVF2604XJHc
+id: se_contact.se_bu_ref
+field_name: se_bu_ref
+entity_type: se_contact
+type: entity_reference
+settings:
+  target_type: se_business
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,241 @@
+definitions:
+  contact__site_page:
+    menu_name: footer
+    parent: ''
+    weight: -46
+    expanded: false
+    enabled: false
+  standard__front_page:
+    menu_name: main
+    parent: ''
+    weight: -50
+    expanded: true
+    enabled: true
+  user__page:
+    menu_name: account
+    parent: ''
+    weight: -50
+    expanded: false
+    enabled: true
+  user__logout:
+    menu_name: account
+    parent: ''
+    weight: -49
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__101':
+    menu_name: catalog
+    parent: ''
+    weight: -62
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__100':
+    menu_name: catalog
+    parent: ''
+    weight: -48
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__103':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.147'
+    weight: -63
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__61':
+    menu_name: catalog
+    parent: ''
+    weight: -64
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__62':
+    menu_name: catalog
+    parent: ''
+    weight: -63
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__72':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.101'
+    weight: -60
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__69':
+    menu_name: catalog
+    parent: ''
+    weight: -59
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__102':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.110'
+    weight: -62
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__125':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.61'
+    weight: 0
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__126':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.125'
+    weight: 0
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__136':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.61'
+    weight: 1
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__117':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.61'
+    weight: 2
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__63':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.118'
+    weight: 0
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__119':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.63'
+    weight: 0
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__108':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.118'
+    weight: 1
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__118':
+    menu_name: catalog
+    parent: ''
+    weight: -61
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__107':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.118'
+    weight: 2
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__147':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.62'
+    weight: 2
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__115':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.147'
+    weight: -61
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__116':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.62'
+    weight: 3
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__110':
+    menu_name: catalog
+    parent: ''
+    weight: -60
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__66':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.101'
+    weight: -63
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__67':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.101'
+    weight: -62
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__68':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.101'
+    weight: -61
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__112':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.101'
+    weight: -59
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__121':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.108'
+    weight: -62
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__122':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.108'
+    weight: -61
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__123':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.108'
+    weight: -60
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__124':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.108'
+    weight: -59
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__139':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.147'
+    weight: -62
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__144':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.147'
+    weight: -60
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__145':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.147'
+    weight: -59
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__146':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.147'
+    weight: -58
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__143':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.147'
+    weight: -57
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__111':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.110'
+    weight: -63
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__148':
+    menu_name: catalog
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.62'
+    weight: 0
+    expanded: true
+    enabled: true

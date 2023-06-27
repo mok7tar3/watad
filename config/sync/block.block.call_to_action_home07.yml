@@ -1,0 +1,53 @@
+uuid: bdfc8920-11d4-4746-856c-6f87d4912d58
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_corporate_03
+  content:
+    - 'block_content:call_to_action:bf16384d-fb82-4c71-80ff-ec81db3b7058'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: fullwidth
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: dark-bg
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: /themes/martis/assets/images/bg/bg3.jpg
+    block_bg_repeat: no-repeat
+    block_bg_position: 'center top'
+    block_bg_size: ''
+    block_parallax_bg: parallax-bg
+id: call_to_action_home07
+theme: martis
+region: content_wide
+weight: -32
+provider: null
+plugin: 'block_content:bf16384d-fb82-4c71-80ff-ec81db3b7058'
+settings:
+  id: 'block_content:bf16384d-fb82-4c71-80ff-ec81db3b7058'
+  label: 'Get started with creating that creative idea with unlimited features.'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_corporate_03

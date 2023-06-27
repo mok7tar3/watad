@@ -1,0 +1,57 @@
+uuid: 0dc4aab9-f4e4-45b0-b086-e387aac9ea48
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:30fc2831-e146-4daa-aabe-9294e9401553'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+    - system
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: header_info
+theme: martis
+region: header
+weight: -79
+provider: null
+plugin: 'block_content:30fc2831-e146-4daa-aabe-9294e9401553'
+settings:
+  id: 'block_content:30fc2831-e146-4daa-aabe-9294e9401553'
+  label: 'Header Info'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /corporate-01

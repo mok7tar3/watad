@@ -1,0 +1,95 @@
+uuid: 2102d7a1-7126-4f2d-9cef-fd5a67dce6e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.clothing
+    - core.entity_view_mode.commerce_product.catalog
+    - field.field.commerce_product.clothing.body
+    - field.field.commerce_product.clothing.field_badge
+    - field.field.commerce_product.clothing.field_product_brand
+    - field.field.commerce_product.clothing.field_product_category
+    - field.field.commerce_product.clothing.field_product_review
+    - field.field.commerce_product.clothing.field_ratings
+    - field.field.commerce_product.clothing.field_short_description
+    - field.field.commerce_product.clothing.field_special_category
+  module:
+    - commerce_product
+    - field_layout
+    - layout_discovery
+    - options
+    - text
+    - votingapi_widgets
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: commerce_product.clothing.catalog
+targetEntityType: commerce_product
+bundle: clothing
+mode: catalog
+content:
+  field_badge:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_ratings:
+    type: voting_api_formatter
+    label: hidden
+    settings:
+      style: css-stars
+      readonly: 0
+      show_results: 0
+      show_own_vote: 0
+      values: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_short_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  flag_compare:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  flag_wishlist:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  variations:
+    type: commerce_add_to_cart
+    label: hidden
+    settings:
+      combine: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  body: true
+  created: true
+  field_product_brand: true
+  field_product_category: true
+  field_product_review: true
+  field_special_category: true
+  langcode: true
+  search_api_excerpt: true
+  stores: true
+  uid: true

@@ -1,0 +1,21 @@
+uuid: e94903f4-4b1e-41d3-bc22-68035295e2c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_align
+    - node.type.banner
+  module:
+    - options
+id: node.banner.field_text_align
+field_name: field_text_align
+entity_type: node
+bundle: banner
+label: 'Text Align'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,53 @@
+uuid: 3fd9dd8f-29ed-470e-a2e7-2493cb76b0a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_personal_01
+  content:
+    - 'block_content:feature_block:01323fba-e618-4d4f-a3aa-23568bf03cd8'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'MY CREATIVE ADVANTAGE'
+    block_title_style: block-title-2
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: home09_feature_block1
+theme: martis
+region: content_wide_top
+weight: -63
+provider: null
+plugin: 'block_content:01323fba-e618-4d4f-a3aa-23568bf03cd8'
+settings:
+  id: 'block_content:01323fba-e618-4d4f-a3aa-23568bf03cd8'
+  label: 'Quality is my watch word and I always go the extra mile to deliver on every projects without compromising standards.'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_personal_01

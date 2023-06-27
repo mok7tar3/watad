@@ -1,0 +1,20 @@
+uuid: f302963c-a136-4a73-8d4e-db2c943af437
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: 7w6hJfk89-_oTdebFplmRynMiJI76KTYhR2WtYsA0zE
+id: comment.se_tk_review
+field_name: se_tk_review
+entity_type: comment
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,50 @@
+uuid: 9c972c31-ec38-4ff8-975e-62e961dfbde0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.product_catalog
+    - facets.facet.size
+  module:
+    - block_visibility_groups
+    - facets
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: size
+theme: martis
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'facet_block:size'
+settings:
+  id: 'facet_block:size'
+  label: Size
+  label_display: visible
+  provider: facets
+  block_id: size
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: product_catalog

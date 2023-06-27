@@ -1,0 +1,7 @@
+_core:
+  default_config_hash: otcT6fr9omlVfA0WBZplUkyOSdvzbfTvIWFJYkqS9TQ
+enable_override: 1
+view: item_by_product_type
+view_display: item_by_product_type
+inherit_settings: 1
+pass_arguments: 0

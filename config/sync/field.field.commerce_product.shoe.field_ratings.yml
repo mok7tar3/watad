@@ -1,0 +1,28 @@
+uuid: c0939e41-32fd-4dab-aca9-dae54a91db64
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.shoe
+    - field.storage.commerce_product.field_ratings
+  module:
+    - votingapi_widgets
+id: commerce_product.shoe.field_ratings
+field_name: field_ratings
+entity_type: commerce_product
+bundle: shoe
+label: Ratings
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    status: '1'
+    value: 0
+default_value_callback: ''
+settings:
+  anonymous_window: '-1'
+  result_function: vote_average
+  user_window: '-1'
+  widget_format: fivestar
+field_type: voting_api_field

@@ -1,0 +1,22 @@
+uuid: 2b471f71-8d03-49bd-96cf-75ab3b2cde64
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - martis
+_core:
+  default_config_hash: fWkhoALUmkU8kGJHSznxtutRPERdcmajCK4XnjIyOZw
+id: martis_messages
+theme: martis
+region: content
+weight: -68
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

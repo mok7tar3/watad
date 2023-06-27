@@ -1,0 +1,22 @@
+uuid: 4a8b752a-ad5c-4e06-8b78-b7c17cb5e619
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_ticket
+    - taxonomy
+_core:
+  default_config_hash: 6KMB5l8UYcggEGm0MYLiDnCgpWsuMrEoaFuhkgDPqUs
+id: se_ticket.se_ti_priority_ref
+field_name: se_ti_priority_ref
+entity_type: se_ticket
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

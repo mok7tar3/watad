@@ -1,0 +1,20 @@
+uuid: 579d6540-7a8d-471a-b031-d1c5c1a1a781
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_item.se_item_type.se_stock
+id: se_item.se_stock.user_id
+field_name: user_id
+entity_type: se_item
+bundle: se_stock
+label: 'Authored by'
+description: 'The user ID of author of the Item entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

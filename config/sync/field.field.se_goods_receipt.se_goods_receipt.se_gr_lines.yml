@@ -1,0 +1,147 @@
+uuid: 59e735ab-2d62-4e5d-b473-9fcc4f4a7117
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_goods_receipt.se_gr_lines
+    - se_item.se_item_type.se_service
+  module:
+    - se_goods_receipt
+    - se_item_line
+_core:
+  default_config_hash: 8eVjZr-eB5tv3_lkAsFhPNalYZ6tBl1vQUKFA-6Ml7E
+id: se_goods_receipt.se_goods_receipt.se_gr_lines
+field_name: se_gr_lines
+entity_type: se_goods_receipt
+bundle: se_goods_receipt
+label: Items
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  se_item:
+    handler: 'default:se_item'
+    handler_settings:
+      target_bundles:
+        se_service: se_service
+      sort:
+        field: _none
+      auto_create: 0
+      auto_create_bundle: ''
+  se_bill:
+    handler: 'default:se_bill'
+    handler_settings: {  }
+  se_business:
+    handler: 'default:se_business'
+    handler_settings: {  }
+  comment:
+    handler: 'default:comment'
+    handler_settings: {  }
+  se_contact:
+    handler: 'default:se_contact'
+    handler_settings: {  }
+  contact_message:
+    handler: 'default:contact_message'
+    handler_settings: {  }
+  node:
+    handler: 'default:node'
+    handler_settings: {  }
+  block_content:
+    handler: 'default:block_content'
+    handler_settings: {  }
+  menu_link_content:
+    handler: 'default:menu_link_content'
+    handler_settings: {  }
+  file:
+    handler: 'default:file'
+    handler_settings: {  }
+  flagging:
+    handler: 'default:flagging'
+    handler_settings: {  }
+  se_goods_receipt:
+    handler: 'default:se_goods_receipt'
+    handler_settings: {  }
+  se_invoice:
+    handler: 'default:se_invoice'
+    handler_settings: {  }
+  commerce_order:
+    handler: 'default:commerce_order'
+    handler_settings: {  }
+  commerce_order_item:
+    handler: 'default:commerce_order_item'
+    handler_settings: {  }
+  commerce_payment:
+    handler: 'default:commerce_payment'
+    handler_settings: {  }
+  se_payment:
+    handler: 'default:se_payment'
+    handler_settings: {  }
+  commerce_payment_method:
+    handler: 'default:commerce_payment_method'
+    handler_settings: {  }
+  commerce_product:
+    handler: 'default:commerce_product'
+    handler_settings: {  }
+  commerce_product_attribute_value:
+    handler: 'default:commerce_product_attribute_value'
+    handler_settings: {  }
+  commerce_product_variation:
+    handler: 'default:commerce_product_variation'
+    handler_settings: {  }
+  profile:
+    handler: 'default:profile'
+    handler_settings: {  }
+  se_purchase_order:
+    handler: 'default:se_purchase_order'
+    handler_settings: {  }
+  se_quote:
+    handler: 'default:se_quote'
+    handler_settings: {  }
+  redirect:
+    handler: 'default:redirect'
+    handler_settings: {  }
+  search_api_task:
+    handler: 'default:search_api_task'
+    handler_settings: {  }
+  commerce_shipment:
+    handler: 'default:commerce_shipment'
+    handler_settings: {  }
+  commerce_shipping_method:
+    handler: 'default:commerce_shipping_method'
+    handler_settings: {  }
+  shortcut:
+    handler: 'default:shortcut'
+    handler_settings: {  }
+  simplenews_subscriber:
+    handler: 'default:simplenews_subscriber'
+    handler_settings: {  }
+  commerce_stock_location:
+    handler: 'default:commerce_stock_location'
+    handler_settings: {  }
+  commerce_store:
+    handler: 'default:commerce_store'
+    handler_settings: {  }
+  taxonomy_term:
+    handler: 'default:taxonomy_term'
+    handler_settings: {  }
+  se_ticket:
+    handler: 'default:se_ticket'
+    handler_settings: {  }
+  path_alias:
+    handler: 'default:path_alias'
+    handler_settings: {  }
+  user:
+    handler: 'default:user'
+    handler_settings: {  }
+  vote:
+    handler: 'default:vote'
+    handler_settings: {  }
+  vote_result:
+    handler: 'default:vote_result'
+    handler_settings: {  }
+  webform_submission:
+    handler: 'default:webform_submission'
+    handler_settings: {  }
+field_type: se_item_line

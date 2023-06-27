@@ -1,0 +1,22 @@
+uuid: 85432f6d-be0a-4259-b1ca-91b4a26cae01
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_invoice
+    - se_quote
+_core:
+  default_config_hash: HKjgDPu-4JncDmt7xPPpyec_ZmNyWpQ_661OtEW0d84
+id: se_invoice.se_in_quote_ref
+field_name: se_in_quote_ref
+entity_type: se_invoice
+type: entity_reference
+settings:
+  target_type: se_quote
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

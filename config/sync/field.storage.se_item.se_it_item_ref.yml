@@ -1,0 +1,21 @@
+uuid: 9087e1a4-6651-41d0-9871-d4cfd33d1443
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_item
+_core:
+  default_config_hash: 8I28G-X7sf3LZSk8-bxBD4nU2zKoF8fOptUcHjfzZbs
+id: se_item.se_it_item_ref
+field_name: se_it_item_ref
+entity_type: se_item
+type: entity_reference
+settings:
+  target_type: se_item
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

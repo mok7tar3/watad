@@ -1,0 +1,20 @@
+uuid: 37118690-759a-4795-8368-12333a730024
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_subscription.se_subscription_type.se_firewall
+id: se_subscription.se_firewall.user_id
+field_name: user_id
+entity_type: se_subscription
+bundle: se_firewall
+label: 'Authored by'
+description: 'The user ID of author of the Subscription entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: 499d77c9-c903-4c93-97b2-d5ac367903a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.clothing
+    - field.storage.commerce_product.field_short_description
+  module:
+    - text
+id: commerce_product.clothing.field_short_description
+field_name: field_short_description
+entity_type: commerce_product
+bundle: clothing
+label: 'Short Description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

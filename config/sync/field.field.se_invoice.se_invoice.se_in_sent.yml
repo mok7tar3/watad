@@ -1,0 +1,26 @@
+uuid: 39804a88-2c08-41b4-b650-39e0ece09e44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_invoice.se_in_sent
+  module:
+    - se_invoice
+_core:
+  default_config_hash: X7_UOU6Ynl6_9xvR6irc0Y7TnhICHemBAk1HaoMpiKg
+id: se_invoice.se_invoice.se_in_sent
+field_name: se_in_sent
+entity_type: se_invoice
+bundle: se_invoice
+label: Sent
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

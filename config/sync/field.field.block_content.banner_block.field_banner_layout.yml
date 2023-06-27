@@ -1,0 +1,21 @@
+uuid: b275607d-6ec9-4cbe-9833-b98b4a167a23
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_block
+    - field.storage.block_content.field_banner_layout
+  module:
+    - options
+id: block_content.banner_block.field_banner_layout
+field_name: field_banner_layout
+entity_type: block_content
+bundle: banner_block
+label: 'Banner Layout'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,23 @@
+uuid: 909d6c7a-ff81-47fb-be4c-c8f062353652
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_business.se_bu_mobile
+  module:
+    - se_business
+    - telephone
+_core:
+  default_config_hash: a7VslxU8wS0R8Mfwv6bU9fifAkAs3bURfgzPv5Q6tJ8
+id: se_business.se_business.se_bu_mobile
+field_name: se_bu_mobile
+entity_type: se_business
+bundle: se_business
+label: Mobile
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

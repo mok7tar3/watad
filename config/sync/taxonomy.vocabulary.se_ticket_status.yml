@@ -1,0 +1,10 @@
+uuid: d7dce42d-20a4-4772-ba2d-3cda20a9872d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nlTBpRVDdoEMLgkbbswwgsvEr9sSzdowfjUfyh11aPA
+name: 'Ticket status'
+vid: se_ticket_status
+description: 'Ticket status taxonomy'
+weight: 0

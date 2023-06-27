@@ -1,0 +1,17 @@
+uuid: 8c4c5e55-6b92-415f-83c6-53d099db09b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: home_personal_01
+label: 'Home Personal 01'
+logic: and
+conditions:
+  eab7ae02-021b-4b04-bcb2-e70e9cbb9963:
+    id: request_path
+    negate: false
+    uuid: eab7ae02-021b-4b04-bcb2-e70e9cbb9963
+    context_mapping: {  }
+    pages: /personal-01
+allow_other_conditions: false

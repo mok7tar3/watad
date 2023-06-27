@@ -1,0 +1,51 @@
+uuid: 0717d26b-359d-44d9-b420-d143a7927953
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_corporate_03
+    - views.view.blog
+  module:
+    - block_visibility_groups
+    - hsblock
+    - views
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'Get informed of latest happenings and news.'
+    block_title_style: block-title-1
+    block_title_align: block-title-center
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: views_block__blog_latest_blog_carousel
+theme: martis
+region: content_wide
+weight: -30
+provider: null
+plugin: 'views_block:blog-latest_blog_carousel'
+settings:
+  id: 'views_block:blog-latest_blog_carousel'
+  label: 'Latest News & Happenings'
+  label_display: visible
+  provider: views
+  views_label: 'Latest News & Happenings'
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_corporate_03

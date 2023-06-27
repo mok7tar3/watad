@@ -1,0 +1,17 @@
+uuid: 2145857d-e221-424e-a437-75d318d388b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - se_contact
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_contact.se_contact
+target_entity_type_id: se_contact
+target_bundle: se_contact
+default_langcode: site_default
+language_alterable: false

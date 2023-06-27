@@ -1,0 +1,53 @@
+uuid: 520a78ad-917c-46f3-afbb-9e58dc98dc0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_corporate_02
+  content:
+    - 'block_content:feature_block:ab2b1cbc-0b5e-412e-8dbe-79a09f214d17'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: 80px
+    block_padding_right: ''
+    block_padding_bottom: 60px
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: '#fbfbfb'
+    block_bg_image_path: /themes/martis/assets/images/bg/bg1.png
+    block_bg_repeat: ''
+    block_bg_position: 'center center'
+    block_bg_size: cover
+    block_parallax_bg: parallax-bg
+id: why_choose_us
+theme: martis
+region: content_wide
+weight: -46
+provider: null
+plugin: 'block_content:ab2b1cbc-0b5e-412e-8dbe-79a09f214d17'
+settings:
+  id: 'block_content:ab2b1cbc-0b5e-412e-8dbe-79a09f214d17'
+  label: 'Why Choose Us?'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_corporate_02

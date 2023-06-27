@@ -1,0 +1,23 @@
+uuid: f24f425d-4bd3-4426-83a5-4a72e9742103
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_business.se_bu_last_statement_date
+  module:
+    - datetime
+    - se_business
+_core:
+  default_config_hash: bZBJB2b1to1cg3EQU6DrmjRsZgRmNzuzRoQzhpIAINQ
+id: se_business.se_business.se_bu_last_statement_date
+field_name: se_bu_last_statement_date
+entity_type: se_business
+bundle: se_business
+label: 'Last statement date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

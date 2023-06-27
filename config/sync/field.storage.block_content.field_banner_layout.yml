@@ -1,0 +1,33 @@
+uuid: 31bf1865-a3ff-4e8a-81c6-d41d52e3949b
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_banner_layout
+field_name: field_banner_layout
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: layout1
+      label: 'Layout V1'
+    -
+      value: layout2
+      label: 'Layout V2'
+    -
+      value: layout3
+      label: 'Layout V3'
+    -
+      value: layout4
+      label: 'Layout V4'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

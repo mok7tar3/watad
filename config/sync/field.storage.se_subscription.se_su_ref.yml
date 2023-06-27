@@ -1,0 +1,22 @@
+uuid: d480412d-e666-4a7a-8753-139947f3abe2
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_business
+    - se_subscription
+_core:
+  default_config_hash: BacQIa3y7ffVeeULctuqW2x7qlhw8j2RE3yjw4Ax4gk
+id: se_subscription.se_su_ref
+field_name: se_su_ref
+entity_type: se_subscription
+type: entity_reference
+settings:
+  target_type: se_business
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

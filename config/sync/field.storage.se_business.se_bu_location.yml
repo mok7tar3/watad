@@ -1,0 +1,21 @@
+uuid: aefe7831-bd99-4ad1-b6e2-be3bd223cdb5
+langcode: en
+status: true
+dependencies:
+  module:
+    - geolocation
+    - se_business
+_core:
+  default_config_hash: U3P3YRi0-GrU3ywWQ7Jnol-Z7zVc3KJr9T_tCKcCN8E
+id: se_business.se_bu_location
+field_name: se_bu_location
+entity_type: se_business
+type: geolocation
+settings: {  }
+module: geolocation
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

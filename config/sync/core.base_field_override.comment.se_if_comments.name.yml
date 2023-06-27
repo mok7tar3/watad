@@ -1,0 +1,20 @@
+uuid: a7c47901-ba2c-4dae-9532-12ac408a8d3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_if_comments
+id: comment.se_if_comments.name
+field_name: name
+entity_type: comment
+bundle: se_if_comments
+label: Name
+description: 'The comment author''s name.'
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,10 @@
+uuid: 82232e66-66d8-41c6-8253-351c1d72b0db
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: F6FLtPICi_Bj2nQoHB5DXbcLz-EXwwnUbJdI4h0v6Yg
+id: se_assembly
+label: Assembly
+locked: null
+pattern: null

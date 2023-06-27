@@ -1,0 +1,83 @@
+uuid: cc61f368-4f29-4158-bdd6-4df803b74080
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.shoe
+    - core.entity_view_mode.commerce_product_variation.list
+    - field.field.commerce_product_variation.shoe.attribute_color
+    - field.field.commerce_product_variation.shoe.attribute_shoe_size
+    - field.field.commerce_product_variation.shoe.field_image
+    - field.field.commerce_product_variation.shoe.field_stock_level
+    - field.field.commerce_product_variation.shoe.weight
+    - image.style.250x250
+  module:
+    - commerce_order
+    - commerce_stock_field
+    - field_layout
+    - image_delta_formatter
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: commerce_product_variation.shoe.list
+targetEntityType: commerce_product_variation
+bundle: shoe
+mode: list
+content:
+  field_image:
+    type: image_delta_formatter
+    label: hidden
+    settings:
+      deltas: '0'
+      image_style: 250x250
+      image_link: content
+      deltas_reversed: 0
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_stock_level:
+    type: commerce_stock_level_simple
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  list_price:
+    type: commerce_price_calculated
+    label: hidden
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+      adjustment_types: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  price:
+    type: commerce_price_calculated
+    label: hidden
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+      adjustment_types: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  attribute_color: true
+  attribute_shoe_size: true
+  langcode: true
+  product_id: true
+  search_api_excerpt: true
+  sku: true
+  weight: true

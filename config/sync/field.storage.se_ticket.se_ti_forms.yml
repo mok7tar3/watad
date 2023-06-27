@@ -1,0 +1,22 @@
+uuid: fddb6a49-2a2d-4797-874b-60113b95e373
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_ticket
+    - webform
+_core:
+  default_config_hash: gu5EN8AbfmoL0mxwqN76TyRd2DCQOqIbq9ram_P25-8
+id: se_ticket.se_ti_forms
+field_name: se_ti_forms
+entity_type: se_ticket
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

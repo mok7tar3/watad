@@ -1,0 +1,10 @@
+uuid: 827f0694-d01d-462e-9f5b-5c71e9f5bce1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Wh-i-dvvlG7tD0Vr2k3xBWveGCN5koNfpuYPRL2cyIc
+name: 'Contact type'
+vid: se_contact_type
+description: 'Contact type taxonomy'
+weight: 0

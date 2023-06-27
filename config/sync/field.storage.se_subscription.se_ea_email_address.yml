@@ -1,0 +1,20 @@
+uuid: 9d60123a-ce7c-49f4-8987-ab89b8c18b91
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_subscription
+_core:
+  default_config_hash: fJP2EcperAwTQCV0aPt9sKPmpSoGy1onHj5u--gj8Y8
+id: se_subscription.se_ea_email_address
+field_name: se_ea_email_address
+entity_type: se_subscription
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,31 @@
+uuid: 29b4b337-92cc-4794-92ac-8f12b1ce7887
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_goods_receipt.se_status_ref
+    - taxonomy.vocabulary.se_status
+  module:
+    - se_goods_receipt
+_core:
+  default_config_hash: Tc8uUSP6b1nszd4V_UkaKWBq7x7jV4iOLlJArI4EfZc
+id: se_goods_receipt.se_goods_receipt.se_status_ref
+field_name: se_status_ref
+entity_type: se_goods_receipt
+bundle: se_goods_receipt
+label: Status
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      se_status: se_status
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,8 @@
+uuid: a243ec03-9cde-499a-ae91-289948b93dff
+langcode: en
+status: true
+dependencies: {  }
+name: 'Special Category'
+vid: special_category
+description: ''
+weight: 0

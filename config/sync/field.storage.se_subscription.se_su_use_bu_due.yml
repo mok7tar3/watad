@@ -1,0 +1,20 @@
+uuid: 78237bc5-dc68-481e-bec3-4cb555cd9012
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_subscription
+_core:
+  default_config_hash: X1y0aRv8yjLw2EjgKIz2FLvhswKo4XxQ_0BGi4op36s
+id: se_subscription.se_su_use_bu_due
+field_name: se_su_use_bu_due
+entity_type: se_subscription
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

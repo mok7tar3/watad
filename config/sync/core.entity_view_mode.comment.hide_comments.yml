@@ -1,0 +1,12 @@
+uuid: f93ff271-d8b2-412d-ad47-811fd7ece18a
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: uHDjTrHYjlRUnaxYRWXSpYmlNpw3SJ3hgkuxzQZigI0
+id: comment.hide_comments
+label: 'Hide comment'
+targetEntityType: comment
+cache: true

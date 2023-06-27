@@ -1,0 +1,25 @@
+uuid: 7c83160a-fe5e-4afa-944f-434ffd65d707
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_business.se_bu_homepage
+  module:
+    - link
+    - se_business
+_core:
+  default_config_hash: 6yVRgPcMDzpNf9vnIWu0GJh4mz1JTqz28oeAljxg2PI
+id: se_business.se_business.se_bu_homepage
+field_name: se_bu_homepage
+entity_type: se_business
+bundle: se_business
+label: Homepage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

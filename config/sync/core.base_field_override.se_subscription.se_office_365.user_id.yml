@@ -1,0 +1,20 @@
+uuid: d693a19b-dc72-431d-ad8b-196175ed625f
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_subscription.se_subscription_type.se_office_365
+id: se_subscription.se_office_365.user_id
+field_name: user_id
+entity_type: se_subscription
+bundle: se_office_365
+label: 'Authored by'
+description: 'The user ID of author of the Subscription entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

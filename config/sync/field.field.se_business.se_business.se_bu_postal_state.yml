@@ -1,0 +1,22 @@
+uuid: fd7498e7-d2a4-4e0a-b960-bed59b6a8a17
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_business.se_bu_postal_state
+  module:
+    - se_business
+_core:
+  default_config_hash: Q6hiDMpLR1VuQY_ig09su307GQGA1cnGH75rNESTUD0
+id: se_business.se_business.se_bu_postal_state
+field_name: se_bu_postal_state
+entity_type: se_business
+bundle: se_business
+label: 'Postal State'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

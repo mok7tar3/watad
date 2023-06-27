@@ -1,0 +1,17 @@
+uuid: f9c619b4-cf6c-4721-8f8e-ac952f382f12
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - se_quote
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_quote.se_quote
+target_entity_type_id: se_quote
+target_bundle: se_quote
+default_langcode: site_default
+language_alterable: false

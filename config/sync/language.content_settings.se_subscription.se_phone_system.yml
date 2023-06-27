@@ -1,0 +1,18 @@
+uuid: 15af594f-81bb-458b-9228-bcaae00d67cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_subscription.se_subscription_type.se_phone_system
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_subscription.se_phone_system
+target_entity_type_id: se_subscription
+target_bundle: se_phone_system
+default_langcode: site_default
+language_alterable: false

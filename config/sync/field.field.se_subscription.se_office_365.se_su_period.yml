@@ -1,0 +1,24 @@
+uuid: 1d5e5f77-7907-4368-8895-aeade64ea51a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_subscription.se_su_period
+    - se_subscription.se_subscription_type.se_office_365
+  module:
+    - duration_field
+_core:
+  default_config_hash: r4MsUhTRBAdtBXtVJKt_kbCWh7OrNf1_H6r1ZzyjEAo
+id: se_subscription.se_office_365.se_su_period
+field_name: se_su_period
+entity_type: se_subscription
+bundle: se_office_365
+label: Period
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  granularity: 'y:m:d'
+field_type: duration

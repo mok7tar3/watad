@@ -1,0 +1,22 @@
+uuid: 8ee0c840-7449-44bf-a538-8e6036e54bff
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_goods_receipt
+    - se_purchase_order
+_core:
+  default_config_hash: RJE0yE0MbGMZzQb4ZO_I7fMbTjJsLDk3MDu4A113VkU
+id: se_goods_receipt.se_gr_purchase_order_ref
+field_name: se_gr_purchase_order_ref
+entity_type: se_goods_receipt
+type: entity_reference
+settings:
+  target_type: se_purchase_order
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,27 @@
+uuid: e2409f05-b44f-4eb5-9363-d50ef8b238d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_item.se_it_cost_price
+    - se_item.se_item_type.se_recurring
+  module:
+    - se_accounting
+_core:
+  default_config_hash: C-CMbPbyQg8OdRk5n2JmcIDMAQgXYRz6opTVzQj3kyo
+id: se_item.se_recurring.se_it_cost_price
+field_name: se_it_cost_price
+entity_type: se_item
+bundle: se_recurring
+label: 'Purchase price'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: se_currency

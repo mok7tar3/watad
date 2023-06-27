@@ -1,0 +1,39 @@
+uuid: 4db465e4-6416-43de-932f-472edfda7c0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - comment
+    - commerce_checkout
+    - commerce_product
+    - contact
+    - filter
+    - flag
+    - shortcut
+    - simplenews
+    - system
+    - votingapi_widgets
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access checkout'
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'flag compare'
+  - 'flag wishlist'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'subscribe to newsletters'
+  - 'unflag compare'
+  - 'unflag wishlist'
+  - 'use text format basic_html'
+  - 'view commerce_product'
+  - 'vote on commerce_product:basic_product:field_ratings'
+  - 'vote on commerce_product:clothing:field_ratings'
+  - 'vote on commerce_product:shoe:field_ratings'

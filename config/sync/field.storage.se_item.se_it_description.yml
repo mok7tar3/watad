@@ -1,0 +1,21 @@
+uuid: cc4d7a89-17d8-4af0-bbfa-29e57e373b50
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_item
+    - text
+_core:
+  default_config_hash: oj4XeC4-dyz03xmm-__9v8n5Ua7OhXm6V3b05l4v3VY
+id: se_item.se_it_description
+field_name: se_it_description
+entity_type: se_item
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

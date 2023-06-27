@@ -1,0 +1,18 @@
+uuid: a91e1618-d3ef-418d-9756-31953b31826e
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_information.se_information_type.se_document
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_information.se_document
+target_entity_type_id: se_information
+target_bundle: se_document
+default_langcode: site_default
+language_alterable: false

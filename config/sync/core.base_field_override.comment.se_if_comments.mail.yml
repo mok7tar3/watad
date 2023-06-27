@@ -1,0 +1,18 @@
+uuid: 9b111a6f-4ce5-47e3-abbf-374a18976d2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_if_comments
+id: comment.se_if_comments.mail
+field_name: mail
+entity_type: comment
+bundle: se_if_comments
+label: Email
+description: 'The comment author''s email address.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

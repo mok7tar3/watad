@@ -1,0 +1,17 @@
+uuid: 1959c48f-8c3b-4081-a259-cf3256058c4d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: home_shop_03
+label: 'Home Shop 03'
+logic: and
+conditions:
+  43d79c90-fe96-4c04-bbd3-29004a2b51cf:
+    id: request_path
+    negate: false
+    uuid: 43d79c90-fe96-4c04-bbd3-29004a2b51cf
+    context_mapping: {  }
+    pages: /shop-03
+allow_other_conditions: false

@@ -1,0 +1,51 @@
+uuid: 2db6d545-44a8-4e77-9b6b-efd60d5b48f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_corporate_03
+    - views.view.clients
+  module:
+    - block_visibility_groups
+    - hsblock
+    - views
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'TRUSTED PARTNERS'
+    block_title_style: block-title-2
+    block_title_align: block-title-center
+    classes: ''
+    block_padding_top: 80px
+    block_padding_right: ''
+    block_padding_bottom: 80px
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: fcfcfc
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: views_block__clients_clients_partners_list
+theme: martis
+region: content_wide
+weight: -33
+provider: null
+plugin: 'views_block:clients-clients_partners_list'
+settings:
+  id: 'views_block:clients-clients_partners_list'
+  label: 'These are some of our most outstanding trusting partners.'
+  label_display: visible
+  provider: views
+  views_label: 'These are some of our most outstanding trusting partners.'
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_corporate_03

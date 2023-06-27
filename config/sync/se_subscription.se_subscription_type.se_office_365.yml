@@ -1,0 +1,10 @@
+uuid: 45688347-02b9-47ce-a6bf-bf2bf7db0b81
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: JFrv0KkY5GO5tFjSGhvh3yC57vqRensAS-3QSvyMRq4
+id: se_office_365
+label: 'Office 365'
+locked: null
+pattern: null

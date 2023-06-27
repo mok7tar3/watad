@@ -1,0 +1,21 @@
+uuid: 911eaaf3-d199-40db-a8b0-3b65ee3c234e
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_accounting
+    - se_bill
+_core:
+  default_config_hash: eHKjpSzvs2TCCrTPAUO4NtD0tyB9XwE4WqcFwzCZ9qE
+id: se_bill.se_bi_total
+field_name: se_bi_total
+entity_type: se_bill
+type: se_currency
+settings: {  }
+module: se_accounting
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

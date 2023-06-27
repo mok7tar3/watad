@@ -1,0 +1,28 @@
+uuid: 0ea1d14d-110f-4b64-8d55-0e393605ba05
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.basic_product
+    - field.storage.commerce_product.field_ratings
+  module:
+    - votingapi_widgets
+id: commerce_product.basic_product.field_ratings
+field_name: field_ratings
+entity_type: commerce_product
+bundle: basic_product
+label: Ratings
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: '1'
+    value: 0
+default_value_callback: ''
+settings:
+  anonymous_window: '-1'
+  result_function: vote_average
+  user_window: '-1'
+  widget_format: fivestar
+field_type: voting_api_field

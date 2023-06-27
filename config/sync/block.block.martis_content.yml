@@ -1,0 +1,53 @@
+uuid: dc17f5e9-8f4a-44ec-a47b-6325a9f3b11b
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - hsblock
+    - system
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+_core:
+  default_config_hash: LWKSSkvBoSpBJzJbr3Ej0sGuaTIdTQ7MATqUcXo5jv8
+id: martis_content
+theme: martis
+region: content
+weight: -64
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/home\r\n/home-01\r\n/home-02\r\n/home-03\r\n/home-04\r\n/home-05"

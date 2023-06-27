@@ -1,0 +1,18 @@
+uuid: 2c4b6057-2e54-4f41-8852-79ffbabb1cf2
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_timekeeping
+id: comment.se_timekeeping.created
+field_name: created
+entity_type: comment
+bundle: se_timekeeping
+label: Created
+description: 'The time that the comment was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

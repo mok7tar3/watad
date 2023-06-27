@@ -1,0 +1,29 @@
+uuid: af13de73-23d6-48d9-861a-e1adf0eb80e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - stratoserp
+    - system
+_core:
+  default_config_hash: 7kmQGRHKEmHsDn26CMj-DSJi-tc0B5B9CX5P0yux-Ns
+id: customer
+label: Customer
+weight: 4
+is_admin: null
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access printer-friendly version'
+  - 'access stratoserp'
+  - 'add job'
+  - 'edit own job'
+  - 'erp contact list'
+  - 'job list'
+  - 'maintain own subscriptions'
+  - 'manage own subscriptions'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'subscribe to content'
+  - 'view erp google map'

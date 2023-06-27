@@ -1,0 +1,23 @@
+uuid: 0cb3d984-c873-4453-9911-f8bc1d5c4668
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_item
+_core:
+  default_config_hash: fofiXJwN9UTGG88BLMaOLw09Xsd3v70G2k2t55t4ac8
+id: se_item.se_it_code
+field_name: se_it_code
+entity_type: se_item
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

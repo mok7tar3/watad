@@ -1,0 +1,14 @@
+uuid: bb4df7c0-d418-4034-aca3-4796497aa963
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_store
+id: store
+label: Store
+type: 'canonical_entities:commerce_store'
+pattern: '/store/[commerce_store:name]'
+selection_criteria: {  }
+selection_logic: and
+weight: -7
+relationships: {  }

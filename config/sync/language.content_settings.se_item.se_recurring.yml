@@ -1,0 +1,18 @@
+uuid: 10bdf7ec-96e1-4b96-9f10-02834fae77bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_item.se_item_type.se_recurring
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_item.se_recurring
+target_entity_type_id: se_item
+target_bundle: se_recurring
+default_langcode: site_default
+language_alterable: false

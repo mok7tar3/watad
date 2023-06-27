@@ -1,0 +1,57 @@
+uuid: 6f0b1dc1-f61f-40e3-8bce-977415aeb0a8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:pricing_table_display:b735a851-fe00-49e1-9392-df73cd504b16'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+    - system
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'Our simplicity the far everything cause three front state evening society besides inhabit over them pulled nature talked now for excuse result.'
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: pricing_3
+theme: martis
+region: content_wide
+weight: -15
+provider: null
+plugin: 'block_content:b735a851-fe00-49e1-9392-df73cd504b16'
+settings:
+  id: 'block_content:b735a851-fe00-49e1-9392-df73cd504b16'
+  label: 'Choose the best plan for your business needs and enjoy unlimited features.'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/services\r\n/services-02\r\n/services-03\r\n/services-04"

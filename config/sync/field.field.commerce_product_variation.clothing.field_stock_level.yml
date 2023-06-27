@@ -1,0 +1,23 @@
+uuid: 5ff4942d-39d5-4865-af7b-04eec69915e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.clothing
+    - field.storage.commerce_product_variation.field_stock_level
+  module:
+    - commerce_stock_field
+id: commerce_product_variation.clothing.field_stock_level
+field_name: field_stock_level
+entity_type: commerce_product_variation
+bundle: clothing
+label: 'Stock Level'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: null
+default_value_callback: ''
+settings: {  }
+field_type: commerce_stock_level

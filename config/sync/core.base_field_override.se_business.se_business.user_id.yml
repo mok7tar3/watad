@@ -1,0 +1,20 @@
+uuid: 99b98462-7627-4b89-af8e-dda487cf9886
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_business
+id: se_business.se_business.user_id
+field_name: user_id
+entity_type: se_business
+bundle: se_business
+label: 'Authored by'
+description: 'The user ID of author of the Business entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

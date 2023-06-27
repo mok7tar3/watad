@@ -1,0 +1,10 @@
+uuid: 6d0ce288-4a4e-4039-87ff-32c2e71bc041
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YOna7WaASeB5EfeFjgYEQt4PuC8NqsN_Cqjd_2S2aPE
+id: se_managed_service
+label: 'Managed service'
+locked: null
+pattern: null

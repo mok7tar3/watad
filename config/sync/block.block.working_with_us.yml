@@ -1,0 +1,53 @@
+uuid: b84b5183-9ebc-4907-a74a-b138c87b558c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_corporate_02
+  content:
+    - 'block_content:feature_block:452d65ce-7533-40e1-85b7-d34dc53d9cef'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'Digital Creative Agency'
+    block_title_style: block-title-2
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: 60px
+    block_padding_right: ''
+    block_padding_bottom: 0px
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: working_with_us
+theme: martis
+region: content_wide
+weight: -45
+provider: null
+plugin: 'block_content:452d65ce-7533-40e1-85b7-d34dc53d9cef'
+settings:
+  id: 'block_content:452d65ce-7533-40e1-85b7-d34dc53d9cef'
+  label: 'We create & design award winning digital products for our clients.'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_corporate_02

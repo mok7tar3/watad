@@ -1,0 +1,22 @@
+uuid: 984ce6b3-1f11-4a6e-9b0a-542b821d2734
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - se_ticket
+_core:
+  default_config_hash: 45FzQLM5t0s9cKO6Fz8VLrjpddKU6gS_JQDKzyBKV7A
+id: se_ticket.se_ti_scheduled
+field_name: se_ti_scheduled
+entity_type: se_ticket
+type: daterange
+settings:
+  datetime_type: datetime
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

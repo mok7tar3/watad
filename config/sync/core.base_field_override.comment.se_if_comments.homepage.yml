@@ -1,0 +1,18 @@
+uuid: b1da8970-7472-4539-a4c7-b633260fbdca
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_if_comments
+id: comment.se_if_comments.homepage
+field_name: homepage
+entity_type: comment
+bundle: se_if_comments
+label: Homepage
+description: 'The comment author''s home page address.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: uri

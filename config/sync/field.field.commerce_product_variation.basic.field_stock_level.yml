@@ -1,0 +1,23 @@
+uuid: 3dfe7451-b201-4c67-84b3-283af27937c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.basic
+    - field.storage.commerce_product_variation.field_stock_level
+  module:
+    - commerce_stock_field
+id: commerce_product_variation.basic.field_stock_level
+field_name: field_stock_level
+entity_type: commerce_product_variation
+bundle: basic
+label: 'Stock Level'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: null
+default_value_callback: ''
+settings: {  }
+field_type: commerce_stock_level

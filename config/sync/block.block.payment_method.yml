@@ -1,0 +1,57 @@
+uuid: 63865943-433a-4ec4-9797-f8c4f6838ff4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e246b99b-a73a-45dc-8c31-bc1067e95114'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+    - system
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: payment_method
+theme: martis
+region: footer_bottom_second
+weight: -19
+provider: null
+plugin: 'block_content:e246b99b-a73a-45dc-8c31-bc1067e95114'
+settings:
+  id: 'block_content:e246b99b-a73a-45dc-8c31-bc1067e95114'
+  label: 'Payment Method'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/corporate-01\r\n/corporate-02\r\n/corporate-03\r\n/personal-01\r\n/personal-02"

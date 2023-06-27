@@ -1,0 +1,37 @@
+uuid: c044a3c8-1135-4148-9b90-5736f86c21f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_ticket.se_ti_owner_ref
+  module:
+    - se_ticket
+_core:
+  default_config_hash: IgHoeAUNdxu6DVLz4RPFhjgfuX_SSHLlNYOX8Z9DeoQ
+id: se_ticket.se_ticket.se_ti_owner_ref
+field_name: se_ti_owner_ref
+entity_type: se_ticket
+bundle: se_ticket
+label: Owner
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: name
+      direction: ASC
+    auto_create: false
+    filter:
+      type: role
+      role:
+        staff: staff
+        administrator: '0'
+        business: '0'
+        developer: '0'
+    include_anonymous: true
+field_type: entity_reference

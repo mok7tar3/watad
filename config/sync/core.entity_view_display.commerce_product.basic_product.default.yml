@@ -1,0 +1,133 @@
+uuid: 8f66b0a9-25e0-4f83-ae0b-2a7284b78e73
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.basic_product
+    - core.entity_view_display.comment.reviews.default
+    - facets.facet.category
+    - field.field.commerce_product.basic_product.body
+    - field.field.commerce_product.basic_product.field_badge
+    - field.field.commerce_product.basic_product.field_product_brand
+    - field.field.commerce_product.basic_product.field_product_category
+    - field.field.commerce_product.basic_product.field_product_review
+    - field.field.commerce_product.basic_product.field_ratings
+    - field.field.commerce_product.basic_product.field_short_description
+    - field.field.commerce_product.basic_product.field_special_category
+  module:
+    - comment
+    - commerce_product
+    - entity_reference_facet_link
+    - field_layout
+    - layout_discovery
+    - options
+    - text
+    - votingapi_widgets
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: commerce_product.basic_product.default
+targetEntityType: commerce_product
+bundle: basic_product
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_badge:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_product_brand:
+    type: entity_reference_facet_link
+    label: inline
+    settings:
+      facet: brand
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_product_category:
+    type: entity_reference_facet_link
+    label: inline
+    settings:
+      facet: category
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_product_review:
+    type: comment_default
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_ratings:
+    type: voting_api_formatter
+    label: hidden
+    settings:
+      style: css-stars
+      show_results: '1'
+      show_own_vote: '1'
+      readonly: 0
+      values: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_short_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_special_category:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  flag_compare:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  flag_wishlist:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  variations:
+    type: commerce_add_to_cart
+    label: hidden
+    settings:
+      combine: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  created: true
+  langcode: true
+  search_api_excerpt: true
+  stores: true
+  uid: true

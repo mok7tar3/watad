@@ -1,0 +1,20 @@
+uuid: 1789e166-220e-453f-b845-e2b035ed2343
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_contact
+id: se_contact.se_contact.user_id
+field_name: user_id
+entity_type: se_contact
+bundle: se_contact
+label: 'Authored by'
+description: 'The user ID of author of the Contact entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

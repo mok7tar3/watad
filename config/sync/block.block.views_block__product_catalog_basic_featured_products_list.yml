@@ -1,0 +1,51 @@
+uuid: 976129b7-526e-4c71-8ab5-9050bec7a05b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_shop_04
+    - views.view.product_catalog_basic
+  module:
+    - block_visibility_groups
+    - hsblock
+    - views
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: 'Must have exclusive products at the best price ever.'
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: views_block__product_catalog_basic_featured_products_list
+theme: martis
+region: content_wide
+weight: -69
+provider: null
+plugin: 'views_block:product_catalog_basic-featured_products_list'
+settings:
+  id: 'views_block:product_catalog_basic-featured_products_list'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_shop_04

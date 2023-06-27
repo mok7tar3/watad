@@ -1,0 +1,32 @@
+uuid: 798076d0-389c-4fae-a336-a2ebbacf7f97
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - se_information
+_core:
+  default_config_hash: WPPdp3RTHQK1y1TGe3xPZtSLSF-oSdgVjSN9jW_HH8A
+id: se_information.se_if_images
+field_name: se_if_images
+entity_type: se_information
+type: image
+settings:
+  uri_scheme: private
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,18 @@
+uuid: 61a22119-d58d-4cd2-bf5d-ad3198134af3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.pricing_table
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.pricing_table
+target_entity_type_id: node
+target_bundle: pricing_table
+default_langcode: site_default
+language_alterable: false

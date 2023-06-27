@@ -1,0 +1,53 @@
+uuid: fbbdf288-bfa3-4604-b3b3-0b1fe83fe5eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - hsblock
+    - system
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+_core:
+  default_config_hash: AKphwHwI_1VSXEOjV627v3PpJq7ba3OU47qp9I66L5o
+id: martis_breadcrumbs
+theme: martis
+region: breadcrumb
+weight: -18
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/shop-01\r\n/shop-02\r\n/shop-03\r\n/shop-04\r\n/shop-05\r\n/corporate-01\r\n/corporate-02\r\n/corporate-03\r\n/personal-01\r\n/personal-02"

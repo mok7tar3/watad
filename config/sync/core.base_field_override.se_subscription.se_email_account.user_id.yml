@@ -1,0 +1,20 @@
+uuid: 52624400-97cc-4d3c-8559-268083c6f238
+langcode: en
+status: true
+dependencies:
+  config:
+    - se_subscription.se_subscription_type.se_email_account
+id: se_subscription.se_email_account.user_id
+field_name: user_id
+entity_type: se_subscription
+bundle: se_email_account
+label: 'Authored by'
+description: 'The user ID of author of the Subscription entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

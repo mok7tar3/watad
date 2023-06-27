@@ -1,0 +1,18 @@
+uuid: b7c99f02-4f8d-467d-a1c3-14486fc7a791
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_timekeeping
+id: comment.se_timekeeping.mail
+field_name: mail
+entity_type: comment
+bundle: se_timekeeping
+label: Email
+description: 'The comment author''s email address.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

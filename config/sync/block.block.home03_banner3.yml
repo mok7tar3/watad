@@ -1,0 +1,53 @@
+uuid: fe6051bc-80b9-45b1-8a8c-94bf66a2e13d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_shop_03
+  content:
+    - 'block_content:banner_block:c264a149-4a78-483c-b2b4-6c7a6e5cd107'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: home03_banner3
+theme: martis
+region: sidebar_first
+weight: -18
+provider: null
+plugin: 'block_content:c264a149-4a78-483c-b2b4-6c7a6e5cd107'
+settings:
+  id: 'block_content:c264a149-4a78-483c-b2b4-6c7a6e5cd107'
+  label: 'Home 03 Banner 3'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_shop_03

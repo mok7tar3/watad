@@ -1,0 +1,21 @@
+uuid: 6be09ba8-9d5c-48f0-818f-09c60e9c2f01
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_bill
+    - text
+_core:
+  default_config_hash: rlX6JQXa-4MZWmyoOURzr43y9Cdudz-LxgZTipoahPY
+id: se_bill.se_body
+field_name: se_body
+entity_type: se_bill
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: true
+custom_storage: false

@@ -1,0 +1,29 @@
+uuid: 536e49ce-f818-4e01-ab6b-a31232f460de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_subscription.se_su_total
+    - se_subscription.se_subscription_type.se_email_account
+  module:
+    - se_accounting
+_core:
+  default_config_hash: wpZevs74T90Tj-VSf-q3W6tARNHcPPg1VnNDgRWigPQ
+id: se_subscription.se_email_account.se_su_total
+field_name: se_su_total
+entity_type: se_subscription
+bundle: se_email_account
+label: Total
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings:
+  min: ''
+  max: ''
+  prefix: ''
+  suffix: ''
+field_type: se_currency

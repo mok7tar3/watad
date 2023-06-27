@@ -1,0 +1,21 @@
+uuid: cee03e8a-17b2-490a-b974-3888bed00849
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_accounting
+    - se_business
+_core:
+  default_config_hash: 7RebFlr0xF19jHUsbCJlu3Jb9Q6FSS9zc8zcRGHMNio
+id: se_business.se_bu_balance
+field_name: se_bu_balance
+entity_type: se_business
+type: se_currency
+settings: {  }
+module: se_accounting
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

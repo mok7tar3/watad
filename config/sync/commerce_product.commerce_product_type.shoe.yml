@@ -1,0 +1,12 @@
+uuid: f80f39fb-4aba-466b-a254-78afc32cac42
+langcode: en
+status: true
+dependencies: {  }
+id: shoe
+label: Shoe
+traits: {  }
+locked: false
+description: ''
+variationType: shoe
+multipleVariations: true
+injectVariationFields: true

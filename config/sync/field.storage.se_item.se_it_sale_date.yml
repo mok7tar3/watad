@@ -1,0 +1,22 @@
+uuid: d9d64b2f-de09-4d86-929f-04f8b90a098e
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - se_item
+_core:
+  default_config_hash: YCbHOfh0GSma1iyzwyjQ62Gh6UzgN1Np2nV74zbv9gU
+id: se_item.se_it_sale_date
+field_name: se_it_sale_date
+entity_type: se_item
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

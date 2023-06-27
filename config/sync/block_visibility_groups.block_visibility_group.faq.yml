@@ -1,0 +1,17 @@
+uuid: 01686625-0504-415e-9689-39eadc606fba
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: faq
+label: FAQ
+logic: and
+conditions:
+  1f6fa3e7-6976-438f-9311-fc36a6d3e5d0:
+    id: request_path
+    negate: false
+    uuid: 1f6fa3e7-6976-438f-9311-fc36a6d3e5d0
+    context_mapping: {  }
+    pages: /faq
+allow_other_conditions: false

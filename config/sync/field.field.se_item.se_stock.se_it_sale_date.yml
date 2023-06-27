@@ -1,0 +1,23 @@
+uuid: 8a42daf1-7f12-468d-8f50-bdc41a59faaf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_item.se_it_sale_date
+    - se_item.se_item_type.se_stock
+  module:
+    - datetime
+_core:
+  default_config_hash: sq5EqHe6y-xwxg1bTPAMvHxyUJqLhPEcI1goNwbPkJM
+id: se_item.se_stock.se_it_sale_date
+field_name: se_it_sale_date
+entity_type: se_item
+bundle: se_stock
+label: 'Sale date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

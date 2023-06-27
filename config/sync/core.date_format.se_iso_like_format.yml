@@ -1,0 +1,10 @@
+uuid: a02a547b-8d2b-4940-be9f-55a1820c3eb3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wKRomTnjg9cHyTeqJfzIyl2suVdGaqLwcndWR5yUNe8
+id: se_iso_like_format
+label: 'ISO like format'
+locked: false
+pattern: 'Y-m-d - H:i:s'

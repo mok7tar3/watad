@@ -1,0 +1,53 @@
+uuid: 18022838-504f-4c42-904d-c6c321d31c43
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_corporate_02
+  content:
+    - 'block_content:slider:160f4bb0-f8ec-4d78-85db-930d03426d60'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: fullwidth
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: ''
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: home06_slider
+theme: martis
+region: content_wide_top
+weight: -77
+provider: null
+plugin: 'block_content:160f4bb0-f8ec-4d78-85db-930d03426d60'
+settings:
+  id: 'block_content:160f4bb0-f8ec-4d78-85db-930d03426d60'
+  label: 'Home 06 slider'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_corporate_02

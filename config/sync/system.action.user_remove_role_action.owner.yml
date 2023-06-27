@@ -1,0 +1,14 @@
+uuid: df478b27-3cc5-48b2-b1c6-2b8c3509745b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.owner
+  module:
+    - user
+id: user_remove_role_action.owner
+label: 'Remove the Owner/CEO/CFO role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: owner

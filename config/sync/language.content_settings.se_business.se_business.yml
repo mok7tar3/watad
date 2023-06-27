@@ -1,0 +1,17 @@
+uuid: 01b8bea9-d578-49ca-b49a-28c0c557d3e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - se_business
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_business.se_business
+target_entity_type_id: se_business
+target_bundle: se_business
+default_langcode: site_default
+language_alterable: false

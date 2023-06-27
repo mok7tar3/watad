@@ -1,0 +1,10 @@
+uuid: 10108f63-2157-4643-8418-f7191ee0f5a7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ggRZC5bO7kOtynPXrfUAxPk70uUDp8ac7erEt4ZsYrQ
+id: se_backup
+label: Backup
+locked: null
+pattern: null

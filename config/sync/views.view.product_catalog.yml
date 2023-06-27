@@ -1,0 +1,590 @@
+uuid: e31cd3bc-aede-4445-b580-a29d341697ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.commerce_product.field_product_brand
+    - search_api.index.product_catalog
+    - system.menu.main
+    - taxonomy.vocabulary.product_category
+  module:
+    - better_exposed_filters
+    - search_api
+    - views_bootstrap_grid
+id: product_catalog
+label: 'Product Catalog (Search API)'
+module: views
+description: 'Product display using search api'
+tag: ''
+base_table: search_api_index_product_catalog
+base_field: search_api_id
+display:
+  default:
+    id: default
+    display_title: Master
+    display_plugin: default
+    position: 0
+    display_options:
+      title: 'Product Catalog'
+      fields:
+        field_product_brand:
+          id: field_product_brand
+          table: search_api_index_product_catalog
+          field: field_product_brand
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: null
+          entity_field: null
+          plugin_id: search_api_field
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings: {  }
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          field_rendering: true
+          fallback_handler: search_api_entity
+          fallback_options:
+            link_to_item: false
+            use_highlighting: false
+            multi_type: separator
+            multi_separator: ', '
+            display_methods: {  }
+      pager:
+        type: full
+        options:
+          offset: 0
+          items_per_page: 16
+          total_pages: null
+          id: 0
+          tags:
+            next: ››
+            previous: ‹‹
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          quantity: 9
+      exposed_form:
+        type: basic
+        options:
+          submit_button: Apply
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: false
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      access:
+        type: none
+        options: {  }
+      cache:
+        type: none
+        options: {  }
+      empty: {  }
+      sorts:
+        title:
+          id: title
+          table: search_api_index_product_catalog
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: search_api
+          order: ASC
+          expose:
+            label: ''
+            field_identifier: title
+          exposed: false
+      arguments: {  }
+      filters: {  }
+      style:
+        type: ViewsBootstrapGrid
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          lg: '3'
+          md: '6'
+          sm: '12'
+          grid_item: 0
+          grid_justify: 0
+      row:
+        type: search_api
+        options:
+          view_modes:
+            'entity:commerce_product':
+              basic_product: catalog
+              clothing: catalog
+              default: catalog
+              shoe: catalog
+      query:
+        type: search_api_query
+        options:
+          skip_access: 0
+          bypass_access: 0
+          preserve_facet_query_args: 1
+      relationships: {  }
+      use_ajax: false
+      header:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text_custom
+          empty: false
+          content: "<div class=\"switch-icon\">\r\n  <span class=\"list-switch ti-view-list-alt\"></span>\r\n  <span  class=\"grid-switch ti-layout-grid3 active\"></span>\r\n</div>"
+          tokenize: false
+      footer: {  }
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+      tags:
+        - 'config:field.storage.commerce_product.field_product_brand'
+        - 'config:search_api.index.product_catalog'
+  product_catalog:
+    id: product_catalog
+    display_title: 'Product Catalog'
+    display_plugin: page
+    position: 1
+    display_options:
+      title: Products
+      pager:
+        type: full
+        options:
+          offset: 0
+          items_per_page: 16
+          total_pages: null
+          id: 0
+          tags:
+            next: ››
+            previous: ‹‹
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          quantity: 9
+      cache:
+        type: none
+      sorts:
+        created:
+          id: created
+          table: search_api_index_product_catalog
+          field: created
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: search_api
+          order: DESC
+          expose:
+            label: Default
+            field_identifier: created
+          exposed: true
+        title:
+          id: title
+          table: search_api_index_product_catalog
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: search_api
+          order: ASC
+          expose:
+            label: 'Name (A-Z)'
+            field_identifier: title
+          exposed: true
+        title_1:
+          id: title_1
+          table: search_api_index_product_catalog
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: search_api
+          order: DESC
+          expose:
+            label: 'Name (Z-A)'
+            field_identifier: title_1
+          exposed: true
+        price:
+          id: price
+          table: search_api_index_product_catalog
+          field: price
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: search_api
+          order: ASC
+          expose:
+            label: 'Lowest Price'
+            field_identifier: price
+          exposed: true
+        price_1:
+          id: price_1
+          table: search_api_index_product_catalog
+          field: price
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: search_api
+          order: DESC
+          expose:
+            label: 'Highest Price'
+            field_identifier: price_1
+          exposed: true
+      filters: {  }
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
+      style:
+        type: ViewsBootstrapGrid
+        options:
+          row_class: ''
+          default_row_class: false
+          uses_fields: false
+          lg: '3'
+          md: '6'
+          sm: '12'
+          grid_item: 0
+          grid_justify: 0
+      row:
+        type: search_api
+        options:
+          view_modes:
+            'entity:commerce_product':
+              basic_product: catalog
+              clothing: catalog
+              default: catalog
+              shoe: catalog
+      defaults:
+        cache: false
+        title: false
+        css_class: false
+        pager: false
+        style: false
+        row: false
+        sorts: false
+        filters: false
+        filter_groups: false
+        header: false
+        footer: false
+      css_class: product-catalog
+      display_description: ''
+      header:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text_custom
+          empty: false
+          content: "<div class=\"switch-icon\">\r\n  <span class=\"list-switch ti-view-list-alt\"></span>\r\n  <span  class=\"grid-switch ti-layout-grid3 active\"></span>\r\n</div>"
+          tokenize: false
+      footer:
+        result:
+          id: result
+          table: views
+          field: result
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: result
+          empty: false
+          content: 'Showing @start - @end of @total'
+      display_extenders: {  }
+      path: products
+      menu:
+        type: normal
+        title: Products
+        description: ''
+        weight: -48
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'url.query_args:sort_by'
+      tags:
+        - 'config:field.storage.commerce_product.field_product_brand'
+        - 'config:search_api.index.product_catalog'
+  product_catalog_search:
+    id: product_catalog_search
+    display_title: 'Product Catalog Search'
+    display_plugin: page
+    position: 1
+    display_options:
+      title: Search
+      exposed_form:
+        type: bef
+        options:
+          submit_button: Search
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: false
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+          input_required: false
+          text_input_required: 'Select any filter and click on Apply to see results'
+          text_input_required_format: basic_html
+          bef:
+            general:
+              autosubmit: false
+              autosubmit_exclude_textfield: false
+              autosubmit_hide: false
+              input_required: false
+              allow_secondary: false
+              secondary_label: 'Advanced options'
+              text_input_required: 'Select any filter and click on Apply to see results'
+              text_input_required_format: basic_html
+            filter:
+              field_product_category:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  placeholder_text: ''
+                  rewrite:
+                    filter_rewrite_values: '- Any -|All Categories'
+                  collapsible: false
+                  is_secondary: false
+              search_api_fulltext:
+                plugin_id: default
+                advanced:
+                  sort_options: false
+                  placeholder_text: ''
+                  rewrite:
+                    filter_rewrite_values: ''
+                  collapsible: false
+                  is_secondary: false
+      cache:
+        type: none
+      empty:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text_custom
+          empty: true
+          content: 'Oops, the product you are searching for does not exist. Try another search?'
+          tokenize: false
+      sorts:
+        search_api_relevance:
+          id: search_api_relevance
+          table: search_api_index_product_catalog
+          field: search_api_relevance
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: search_api
+          order: DESC
+          expose:
+            label: Relevance
+            field_identifier: search_api_relevance
+          exposed: false
+      filters:
+        field_product_category:
+          id: field_product_category
+          table: search_api_index_product_catalog
+          field: field_product_category
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: search_api_term
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_product_category_op
+            label: ''
+            description: ''
+            use_operator: false
+            operator: field_product_category_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_product_category
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: product_category
+          type: select
+          hierarchy: true
+          limit: true
+          error_message: true
+        search_api_fulltext:
+          id: search_api_fulltext
+          table: search_api_index_product_catalog
+          field: search_api_fulltext
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: search_api_fulltext
+          operator: or
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: search_api_fulltext_op
+            label: ''
+            description: ''
+            use_operator: false
+            operator: search_api_fulltext_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: text
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            placeholder: 'Search products'
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          parse_mode: terms
+          min_length: null
+          fields: {  }
+      filter_groups:
+        operator: AND
+        groups:
+          1: OR
+      defaults:
+        empty: false
+        cache: false
+        title: false
+        exposed_form: false
+        sorts: false
+        filters: false
+        filter_groups: false
+      display_description: ''
+      exposed_block: true
+      display_extenders: {  }
+      path: catalog
+      menu:
+        type: none
+        title: ''
+        description: ''
+        weight: 0
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user
+      tags:
+        - 'config:field.storage.commerce_product.field_product_brand'
+        - 'config:search_api.index.product_catalog'

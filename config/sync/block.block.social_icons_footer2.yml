@@ -1,0 +1,53 @@
+uuid: 90c3c1b3-32bd-4730-87f0-4a147abb6a1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_personal_02
+  content:
+    - 'block_content:basic:7d96b98e-062b-4161-a45d-51c516c1a9fa'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: norm-width
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: 'text-center pb-0'
+    block_padding_top: 60px
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: social_icons_footer2
+theme: martis
+region: footer_bottom_first
+weight: -76
+provider: null
+plugin: 'block_content:7d96b98e-062b-4161-a45d-51c516c1a9fa'
+settings:
+  id: 'block_content:7d96b98e-062b-4161-a45d-51c516c1a9fa'
+  label: 'Social Icons'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_personal_02

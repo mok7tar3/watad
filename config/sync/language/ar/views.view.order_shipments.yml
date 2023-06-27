@@ -1,0 +1,31 @@
+display:
+  default:
+    display_title: الرئيسي
+    display_options:
+      exposed_form:
+        options:
+          submit_button: تطبيق
+          reset_button_label: 'إعادة الضبط'
+          exposed_sorts_label: 'الترتيب حسب'
+          sort_asc_label: تصاعدي
+          sort_desc_label: تنازلي
+      fields:
+        title:
+          label: العنوان
+          separator: ', '
+        amount__number:
+          label: المبلغ
+          separator: ', '
+        tracking_code:
+          separator: ', '
+        state:
+          label: الحالة
+          separator: ', '
+        operations:
+          label: 'روابط العمليات'
+      arguments:
+        order_id:
+          exception:
+            title: الكل
+  page_1:
+    display_title: الصفحة

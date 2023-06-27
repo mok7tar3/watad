@@ -1,0 +1,17 @@
+uuid: 27033a78-ff38-491a-abc4-626c3040f1a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - se_goods_receipt
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_goods_receipt.se_goods_receipt
+target_entity_type_id: se_goods_receipt
+target_bundle: se_goods_receipt
+default_langcode: site_default
+language_alterable: false

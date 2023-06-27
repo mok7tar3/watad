@@ -1,0 +1,10 @@
+uuid: b17c3f73-ab70-40d0-b54f-2b899393977f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: RmBlUXt0KXokQtIMONSLENt3cNVK2RZ9uYtR7SxBu7g
+id: se_document
+label: Document
+locked: null
+pattern: null

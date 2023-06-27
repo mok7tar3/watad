@@ -1,0 +1,44 @@
+uuid: 09838b59-fcb0-47c6-91ad-d3a2cb0ad3e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser_3
+    - field.field.node.service.body
+    - field.field.node.service.field_icon_image
+    - field.field.node.service.field_image
+    - node.type.service
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: node.service.teaser_3
+targetEntityType: node
+bundle: service
+mode: teaser_3
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_icon_image: true
+  field_image: true
+  langcode: true
+  layout_builder__layout: true
+  search_api_excerpt: true

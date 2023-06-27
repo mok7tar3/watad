@@ -1,0 +1,53 @@
+uuid: 568712f8-66d8-4e5b-a382-378d78cf174b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_visibility_groups.block_visibility_group.home_personal_02
+  content:
+    - 'block_content:call_to_action:04f31cc2-8cf2-4fd0-bb82-a6dd67affdc5'
+  module:
+    - block_content
+    - block_visibility_groups
+    - hsblock
+  theme:
+    - martis
+third_party_settings:
+  hsblock:
+    id: ''
+    block_layout: fullwidth
+    block_subtitle: ''
+    block_title_style: block-title-1
+    block_title_align: block-title-left
+    classes: colored-bg
+    block_padding_top: ''
+    block_padding_right: ''
+    block_padding_bottom: ''
+    block_padding_left: ''
+    block_text_color: ''
+    block_bg_color: ''
+    block_bg_image_path: ''
+    block_bg_repeat: ''
+    block_bg_position: ''
+    block_bg_size: ''
+    block_parallax_bg: ''
+id: cta_h10
+theme: martis
+region: content_wide
+weight: -19
+provider: null
+plugin: 'block_content:04f31cc2-8cf2-4fd0-bb82-a6dd67affdc5'
+settings:
+  id: 'block_content:04f31cc2-8cf2-4fd0-bb82-a6dd67affdc5'
+  label: 'Need a professional touch with a class? '
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    context_mapping: {  }
+    block_visibility_group: home_personal_02

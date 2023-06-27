@@ -1,0 +1,23 @@
+uuid: 890892d1-6228-4112-8c40-7c2e51eea668
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_ticket.se_ti_forms
+  module:
+    - se_ticket
+    - webform
+id: se_ticket.se_ticket.se_ti_forms
+field_name: se_ti_forms
+entity_type: se_ticket
+bundle: se_ticket
+label: Form
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings: {  }
+field_type: webform

@@ -1,0 +1,17 @@
+uuid: 277a443b-9a07-408b-a04b-fb5f9b5a084e
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - se_purchase_order
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: se_purchase_order.se_purchase_order
+target_entity_type_id: se_purchase_order
+target_bundle: se_purchase_order
+default_langcode: site_default
+language_alterable: false

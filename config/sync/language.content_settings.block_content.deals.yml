@@ -1,0 +1,18 @@
+uuid: 73b30359-5838-4e77-8e6f-5799b7834b39
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.deals
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.deals
+target_entity_type_id: block_content
+target_bundle: deals
+default_langcode: site_default
+language_alterable: false

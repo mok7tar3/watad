@@ -1,0 +1,18 @@
+uuid: d85e9b59-1df2-465b-9b0e-4a52153e5393
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_timekeeping
+id: comment.se_timekeeping.changed
+field_name: changed
+entity_type: comment
+bundle: se_timekeeping
+label: Changed
+description: 'The time that the comment was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

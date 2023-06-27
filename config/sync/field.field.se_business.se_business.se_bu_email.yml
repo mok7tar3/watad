@@ -1,0 +1,22 @@
+uuid: 908a12de-a641-45d6-8247-0b30e9b5a5a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.se_business.se_bu_email
+  module:
+    - se_business
+_core:
+  default_config_hash: kT1vRPvDSdEnQgKoqTgw3sEqH40e4iaYjBPfb7jsj38
+id: se_business.se_business.se_bu_email
+field_name: se_bu_email
+entity_type: se_business
+bundle: se_business
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

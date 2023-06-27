@@ -1,0 +1,26 @@
+uuid: 034f0513-bb04-49dd-81e0-96c94b0b0c89
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.se_timekeeping
+    - field.storage.comment.se_tk_date
+  module:
+    - datetime
+_core:
+  default_config_hash: rFn-zeNsFuqAROQ4Vt_qxtuxWh5U486BnJMPrBuaTXQ
+id: comment.se_timekeeping.se_tk_date
+field_name: se_tk_date
+entity_type: comment
+bundle: se_timekeeping
+label: Date
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

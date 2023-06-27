@@ -1,0 +1,10 @@
+uuid: cd157366-eb2c-4e0f-9be5-05a13db5ef1e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6UbzUY33-gE9yUg3NdvloJqx30PE2UIP_oxquSlP7Vo
+id: se_stock
+label: Stock
+locked: null
+pattern: null

@@ -1,0 +1,22 @@
+uuid: 449c4b8e-1f30-4388-b81b-13fa20c4f58b
+langcode: en
+status: true
+dependencies:
+  module:
+    - se_invoice
+    - taxonomy
+_core:
+  default_config_hash: WxfCu4jHzfa5F0qsmOEwy7zJNhT88l5T4D-f7eCx9w8
+id: se_invoice.se_status_ref
+field_name: se_status_ref
+entity_type: se_invoice
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

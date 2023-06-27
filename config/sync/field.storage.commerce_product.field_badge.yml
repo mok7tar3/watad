@@ -1,0 +1,30 @@
+uuid: 2ba8fa0e-a9ad-4c5a-aedb-e66b041b637c
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - options
+id: commerce_product.field_badge
+field_name: field_badge
+entity_type: commerce_product
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: new
+      label: New
+    -
+      value: sale
+      label: Sale
+    -
+      value: hot
+      label: Hot
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
