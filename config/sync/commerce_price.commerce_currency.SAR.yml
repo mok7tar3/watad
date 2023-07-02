@@ -1,0 +1,9 @@
+uuid: cce2d329-b472-45fd-90cc-b98c0160ec61
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: SAR
+name: 'Saudi Riyal'
+numericCode: '682'
+symbol: SAR
+fractionDigits: 2

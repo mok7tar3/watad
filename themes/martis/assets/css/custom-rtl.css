@@ -30,3 +30,29 @@ header .container{
 .button, input[type="submit"]{
     margin-top: 10px;
 }
+
+
+/* portfolio page */
+.shuffle-filters-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+/* contact page */
+@media (max-width: 770px){
+    .contact-address .contact-address-heading{
+        margin-top: 15px;
+    }
+}
+
+/*
+Orders, Shipping and Returns page >
+Privacy Policy >
+Terms and Conditions >
+
+*/
+
+
+/*
+.breadcrumb  ul :nth-child(2) {
+    display: none;
+} */

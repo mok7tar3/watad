@@ -1,0 +1,9 @@
+uuid: d656ea88-9ac4-44c5-99d4-8213ecdc0a23
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: EGP
+name: 'Egyptian Pound'
+numericCode: '818'
+symbol: EGP
+fractionDigits: 2

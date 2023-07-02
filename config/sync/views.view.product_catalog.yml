@@ -176,9 +176,9 @@ display:
       query:
         type: search_api_query
         options:
-          skip_access: 0
-          bypass_access: 0
-          preserve_facet_query_args: 1
+          bypass_access: false
+          skip_access: false
+          preserve_facet_query_args: true
       relationships: {  }
       use_ajax: false
       header:
@@ -204,6 +204,7 @@ display:
       tags:
         - 'config:field.storage.commerce_product.field_product_brand'
         - 'config:search_api.index.product_catalog'
+        - 'search_api_list:product_catalog'
   product_catalog:
     id: product_catalog
     display_title: 'Product Catalog'
@@ -366,9 +367,10 @@ display:
       path: products
       menu:
         type: normal
-        title: Products
+        title: Product
         description: ''
         weight: -48
+        enabled: true
         expanded: false
         menu_name: main
         parent: ''
@@ -383,6 +385,7 @@ display:
       tags:
         - 'config:field.storage.commerce_product.field_product_brand'
         - 'config:search_api.index.product_catalog'
+        - 'search_api_list:product_catalog'
   product_catalog_search:
     id: product_catalog_search
     display_title: 'Product Catalog Search'
@@ -588,3 +591,4 @@ display:
       tags:
         - 'config:field.storage.commerce_product.field_product_brand'
         - 'config:search_api.index.product_catalog'
+        - 'search_api_list:product_catalog'
